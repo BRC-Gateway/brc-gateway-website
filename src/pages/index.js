@@ -14,7 +14,7 @@ const IndexPage = () => (
       marginTop: '100px',
       display: 'grid',
       gridTemplateColumns: '3fr 1fr',
-      gridTemplateRows: '3fr 1fr',
+      gridTemplateRows: '5fr 1fr',
     }}>
 
       <div>
