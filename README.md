@@ -16,18 +16,6 @@ Install
 
 `npm install`
 
-Develop Locally
-
-`gatsby develop`
-
-Production Build
-
-`gatsby build`
-
-Serve Production Build Locally
-
-`gatsby serve`
-
 ### Develop
 
 Use `gatsby develop` to work locally on the website. It will serve the site and provide hot reloading so that you do not need to refresh the page to see updates.
