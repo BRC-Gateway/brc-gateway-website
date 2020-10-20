@@ -1,0 +1,13 @@
+html {
+  background-color: white;
+}
+
+p {
+  color: maroon;
+}
+
+.nav-links a {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
