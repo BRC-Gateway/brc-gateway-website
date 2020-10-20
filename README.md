@@ -32,3 +32,5 @@ Serve Production Build Locally
 
 Use `gatsby develop` to work locally on the website. It will serve the site and provide hot reloading so that you do not need to refresh the page to see updates.
 
+### Build
+Use `gatsby build` to build the production version of the website. It will create and be located in /public. You shouldn't ever need to go in there and make edits. After you build use `gatsby serve` to view the production website in your browser. 
