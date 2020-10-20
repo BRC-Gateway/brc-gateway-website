@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import BRCLogo from "../images/brc-logo.png"
 
 const Footer = ({ siteTitle }) => (
   <footer style={{ marginTop: '200px'}}>
@@ -10,7 +11,7 @@ const Footer = ({ siteTitle }) => (
       justifyContent: 'space-between',
     }}>
       <p>NIAID Contract Info</p>
-      <p>LOGO</p>
+      <img src={BRCLogo} alt="BRC Logo" style={{ height: '100px' }}/>
       <p>Social Media Links</p>
     </div>
   </footer>
