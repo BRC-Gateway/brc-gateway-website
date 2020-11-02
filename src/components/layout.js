@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "../styles/tailwind.min.css"
+import "../styles/bootstrap-4.3.1.css"
 import "../styles/brc-mockup.css"
 import "../styles/global.css"
 
@@ -33,7 +34,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
-        <main>{children}</main>
+        <main role="main">{children}</main>
       </div>
       <Footer />
     </>
