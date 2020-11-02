@@ -1,17 +1,1 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-html {
-  background-color: white;
-}
-
-p {
-  color: maroon;
-}
-
-.nav-links a {
-  color: black;
-  padding: 0 10px;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
