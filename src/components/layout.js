@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "../styles/tailwind.min.css"
+import "../styles/bootstrap-4.3.1.css"
 import "../styles/brc-mockup.css"
 import "../styles/global.css"
 
