@@ -7,6 +7,7 @@ module.exports = {
   pathPrefix: "brc-gateway-website",
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-twitter',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

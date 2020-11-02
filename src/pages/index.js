@@ -224,14 +224,7 @@ const IndexPage = () => (
               <a href="data.html" class="btn btn-outline-dark rounded-pill">All Upcoming Events &raquo;</a>
             </div>
             <hr />
-            <h5>Tweets <span>by <a href="#">@BV-BRC</a> <a href="#">@VEuPathDB</a></span></h5>
-            <div class="scrl-box">
-              <img src={Tweet1} class="img-fluid" />
-              <img src={Tweet2} class="img-fluid" />
-            </div>
-            <div class="home-block mt-4">
-              <a href="data.html" class="btn btn-outline-dark rounded-pill">View on Twitter &raquo;</a>
-            </div>
+            <a class="twitter-timeline" data-height="600" href="https://twitter.com/BrcGateway/lists/brc-gateway?ref_src=twsrc%5Etfw">A Twitter List by BrcGateway</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
 
         </div>
