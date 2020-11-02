@@ -13,7 +13,7 @@ import "../styles/tailwind.min.css"
 import "../styles/brc-mockup.css"
 import "../styles/global.css"
 
-import "../scripts/all.min.js"
+import "../scripts/fa5.min.js"
 
 import Header from "./header"
 import Footer from "./footer"
