@@ -169,13 +169,13 @@ const IndexPage = () => (
                   <div class="social-buttons">
                     <ul class="list-group list-group-horizontal">
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/BVBRC_DB"><i class="fab fa-twitter"></i></a>
                       </li>
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://facebook.com/pages/Pathosystems-Resource-Integration-Center-PATRIC/117100971687823"><i class="fab fa-facebook"></i></a>
                       </li>
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com/user/PATRICBRC"><i class="fab fa-youtube"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -188,13 +188,13 @@ const IndexPage = () => (
                   <div class="social-buttons">
                     <ul class="list-group list-group-horizontal">
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/VEuPathDB"><i class="fab fa-twitter"></i></a>
                       </li>
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://facebook.com/pages/EuPathDB/133123003429972"><i class="fab fa-facebook"></i></a>
                       </li>
                       <li class="list-group-item">
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="https://youtube.com/user/EuPathDB/playlists"><i class="fab fa-youtube"></i></a>
                       </li>
                     </ul>
                   </div>
