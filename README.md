@@ -10,6 +10,10 @@ If using MacOS you can use [Homebrew](https://brew.sh/) to install Node.
 
 `brew install node`
 
+[Gatsby CLI](https://www.gatsbyjs.com/docs/gatsby-cli/) is required.
+
+`npm install -g gatsby-cli`
+
 ### Installation
 
 Install
