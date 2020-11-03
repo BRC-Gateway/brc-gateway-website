@@ -14,19 +14,19 @@ const Header = ({ siteTitle }) => (
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <Link class="nav-link" to="#">Organisms</Link>
+            <Link class="nav-link" to="/organisms">Organisms</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="#">Tools</Link>
+            <Link class="nav-link" to="/tools">Tools</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="#">Calendar</Link>
+            <Link class="nav-link" to="/calendar">Calendar</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="#">About</Link>
+            <Link class="nav-link" to="/about">About</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="#">Contact</Link>
+            <Link class="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
         <ul class="navbar-nav">
