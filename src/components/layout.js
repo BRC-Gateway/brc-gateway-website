@@ -17,6 +17,8 @@ import "../styles/global.css"
 import "../scripts/fa5.min.js"
 
 import Header from "./header"
+import Calendar from "./calendar"
+import Twitter from "./twitter"
 import Footer from "./footer"
 
 const Layout = ({ children }) => {
@@ -33,8 +35,25 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+
       <div>
-        <main role="main">{children}</main>
+        <main role="main">
+          <div class="container-fluid max-1600">
+            <div class="row">
+
+              <div class="col-md-8 col-lg-9 px-5 pt-3">
+                {children}
+              </div>
+
+              <div class="col-md-4 col-lg-3 news-col mt-4">
+                <Calendar></Calendar>
+                <hr />
+                <Twitter></Twitter>
+              </div>
+
+            </div>
+          </div>
+        </main>
       </div>
       <Footer />
     </>
