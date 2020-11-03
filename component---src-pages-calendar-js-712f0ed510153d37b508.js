@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{JuWA:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),l=(a("Wbzz"),a("Bl7J")),c=a("vrFN");t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(c.a,{title:"About Us"}),r.a.createElement("div",{class:"row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600"},r.a.createElement("div",{class:"col-12"},r.a.createElement("h4",null,"Calendar"))))}}}]);
+//# sourceMappingURL=component---src-pages-calendar-js-712f0ed510153d37b508.js.map
