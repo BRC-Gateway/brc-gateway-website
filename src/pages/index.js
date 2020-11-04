@@ -15,7 +15,7 @@ import IconProtozoa from "../images/icon-protozoa.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="NIAID Bioinformatics Resource Centers" />
 
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
