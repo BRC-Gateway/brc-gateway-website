@@ -6,11 +6,12 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 import BRCLogoBlack from "../images/brc-logo-black.png"
+import IconHosts from "../images/icon-hosts.png"
+import IconViruses from "../images/icon-viruses.png"
+import IconVectors from "../images/icon-vectors.png"
 import IconBacteria from "../images/icon-bacteria.png"
-import Tweet1 from "../images/tweet.png"
-import Tweet2 from "../images/tweet-2.png"
-import Twitter from "../components/twitter"
-import Calendar from "../components/calendar"
+import IconFungi from "../images/icon-fungi.png"
+import IconProtozoa from "../images/icon-protozoa.png"
 
 const IndexPage = () => (
   <Layout>
@@ -43,7 +44,7 @@ const IndexPage = () => (
         <li>
           <div class="org-circle">
             <a href="javascript:showhide('#do_hosts')" id="hosts">
-              <img class="img-fluid" src={IconBacteria} />
+              <img class="img-fluid" src={IconHosts} />
             </a>
             <div class="info info-left">
               <span>Host Mammals</span>
@@ -60,7 +61,7 @@ const IndexPage = () => (
         <li class="circle-grid">
           <div class="org-circle">
             <a href="javascript:showhide('#do_viruses')" id="viruses">
-              <img class="img-fluid" src={IconBacteria} />
+              <img class="img-fluid" src={IconViruses} />
             </a>
             <div class="info info-right">
               <span>Viruses</span>
@@ -76,7 +77,7 @@ const IndexPage = () => (
         <li class="circle-grid">
           <div class="org-circle">
             <a href="javascript:showhide('#do_vectors')" id="vectors">
-              <img class="img-fluid" src={IconBacteria} />
+              <img class="img-fluid" src={IconVectors} />
             </a>
             <div class="info info-left">
               <span>Arthropod Vectors</span>
@@ -112,7 +113,7 @@ const IndexPage = () => (
         <li class="circle-grid">
           <div class="org-circle">
             <a href="javascript:showhide('#do_fungi')" id="fungi">
-              <img class="img-fluid" src={IconBacteria} />
+              <img class="img-fluid" src={IconFungi} />
             </a>
             <div class="info info-left">
               <span>Fungi</span>
@@ -127,7 +128,7 @@ const IndexPage = () => (
         <li class="circle-grid">
           <div class="org-circle">
             <a href="javascript:showhide('#do_protozoa')" id="protozoa">
-              <img class="img-fluid" src={IconBacteria} />
+              <img class="img-fluid" src={IconProtozoa} />
             </a>
             <div class="info info-right bkgrnd">
               <span>Protozoa</span>
