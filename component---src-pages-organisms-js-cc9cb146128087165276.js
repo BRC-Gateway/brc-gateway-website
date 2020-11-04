@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{slqM:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),r=t.n(n),l=(t("Wbzz"),t("Bl7J")),s=t("vrFN");a.default=function(){return r.a.createElement(l.a,null,r.a.createElement(s.a,{title:"Organisms"}),r.a.createElement("div",{class:"row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600"},r.a.createElement("div",{class:"col-12"},r.a.createElement("h4",null,"Organisms"))))}}}]);
+//# sourceMappingURL=component---src-pages-organisms-js-cc9cb146128087165276.js.map

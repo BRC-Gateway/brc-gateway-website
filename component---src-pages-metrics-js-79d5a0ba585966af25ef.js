@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{XI4c:function(e,t,a){"use strict";a.r(t);var r=a("q1tI"),n=a.n(r),c=(a("Wbzz"),a("Bl7J")),l=a("vrFN");t.default=function(){return n.a.createElement(c.a,null,n.a.createElement(l.a,{title:"Usage Metrics"}),n.a.createElement("div",{class:"row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600"},n.a.createElement("div",{class:"col-12"},n.a.createElement("h4",null,"Usage Metrics"))))}}}]);
+//# sourceMappingURL=component---src-pages-metrics-js-79d5a0ba585966af25ef.js.map
