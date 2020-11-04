@@ -80,7 +80,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconVectors} />
             </a>
             <div class="info info-left">
-              <span>Arthropod Vectors</span>
+              <span>Vectors</span>
               <div id="do_vectors" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="https://vectorbase.org/vectorbase/app" target="_blank">VectorBase</a></li>
