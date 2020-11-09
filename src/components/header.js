@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
-        <ul className="navbar-nav">
+        {/* <ul className="navbar-nav">
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i className="fas fa-user-circle"></i>
@@ -47,7 +47,7 @@ const Header = ({ siteTitle }) => (
               <a className="dropdown-item" href="#">Help</a>
             </div>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
 
@@ -80,7 +80,7 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
-        <ul className="navbar-nav">
+        {/* <ul className="navbar-nav">
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i className="fas fa-user-circle"></i>
@@ -92,7 +92,7 @@ const Header = ({ siteTitle }) => (
               <a className="dropdown-item" href="#">Help</a>
             </div>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
   </header>
