@@ -23,7 +23,7 @@ const IndexPage = () => (
       </div>
       <div class="col-12 col-xl-8">
         <p class="emphasis">The NIH/NIAID-funded <a href="https://www.niaid.nih.gov/research/bioinformatics-resource-centers" target="_blank">Bioinformatics Resource Centers (BRCs) for Infectious Diseases program</a> provides public access to computational platforms and analysis tools that enable  collecting, archiving, updating, and integrating a variety of genomics and related research data relevant to infectious diseases, and pathogens and their interaction with hosts.</p>
-        <a href="">Read more</a>
+        <Link to="/about">Read more</Link>
       </div>
       <div class="col-xl-4">
         <img src={BRCLogoBlack} alt="BRC Logo" class="img-fluid d-none d-xl-block" />
