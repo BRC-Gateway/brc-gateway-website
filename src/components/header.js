@@ -17,9 +17,6 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/taxa">Taxa</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/tools">Tools</Link>
-          </li>
-          <li className="nav-item">
             <Link className="nav-link" to="/calendar">Calendar</Link>
           </li>
           <li className="nav-item">
@@ -60,9 +57,6 @@ const Header = ({ siteTitle }) => (
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/taxa">taxa</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/tools">Tools</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/calendar">Calendar</Link>
