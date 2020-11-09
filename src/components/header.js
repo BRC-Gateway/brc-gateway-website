@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/organisms">Organisms</Link>
+            <Link className="nav-link" to="/taxa">Taxa</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/tools">Tools</Link>
@@ -59,7 +59,7 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/organisms">Organisms</Link>
+            <Link className="nav-link" to="/taxa">taxa</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/tools">Tools</Link>
