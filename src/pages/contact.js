@@ -10,6 +10,7 @@ const ContactPage = () => (
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
         <h4>Contact</h4>
+        <p>You can contact VEuPathDB at <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
 
         <form>
           <div className="form-group">
