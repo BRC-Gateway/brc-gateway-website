@@ -27,7 +27,6 @@ const AboutPage = () => (
           </ul>
         </div>
 
-
         <hr />
 
         <h5>Targeted Pathogens</h5>
@@ -120,6 +119,10 @@ const AboutPage = () => (
             </table>
           </div>
         </div>
+
+        <hr />
+
+        <h5>Usage Metrics</h5>
 
       </div>
     </div>
