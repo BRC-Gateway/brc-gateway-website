@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/taxa">taxa</Link>
+            <Link className="nav-link" to="/taxa">Taxa</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/calendar">Calendar</Link>
