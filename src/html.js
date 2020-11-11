@@ -21,6 +21,20 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+              if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+                document.getElementById("navbar-small").style.display = "flex";
+              } else {
+                document.getElementById("navbar-small").style.display = "none";
+              }
+            }
+        `,
+          }}
+        />
       </body>
     </html>
   )
