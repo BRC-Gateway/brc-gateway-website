@@ -73,12 +73,7 @@ const AboutPage = () => (
                     <a href="https://cryptodb.org/" target="_blank">CryptoDB</a>
                     <br />
                     <a href="https://fungidb.org/" target="_blank">FungiDB</a>
-                  </td>
-                  <td>Eukaryotic human pathogen species including fungi and protists</td>
-                </tr>
-
-                <tr>
-                  <td>
+                    <br />
                     <a href="https://giardiadb.org/" target="_blank">GiardiaDB</a>
                     <br />
                     <a href="https://microsporidiadb.org/" target="_blank">MicrosporidaDB</a>
@@ -93,6 +88,7 @@ const AboutPage = () => (
                     <br />
                     <a href="https://tritrypdb.org/" target="_blank">TriTrypDB</a>
                   </td>
+                  <td>Eukaryotic human pathogen species including fungi and protists</td>
                 </tr>
 
                 <tr>
