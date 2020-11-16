@@ -8,6 +8,8 @@ import JCVILogo from "../images/jcvi-logo.png"
 import UPennLogo from "../images/upenn-logo.png"
 import UGALogo from "../images/uga-logo.png"
 import NDLogo from "../images/nd-logo.png"
+import FIGLogo from "../images/fig-logo.png"
+import UVALogo from "../images/uva-logo.png"
 
 const Footer = ({ siteTitle }) => (
   <footer class="footer mt-auto py-4">
@@ -23,6 +25,8 @@ const Footer = ({ siteTitle }) => (
             <img class="align-middle mb-2 mt-4 mt-md-2" src={UPennLogo} />
             <img class="align-middle mb-2 mt-4 mt-md-2" src={UGALogo} />
             <img class="align-middle mb-2 mt-4 mt-md-2" src={NDLogo} />
+            <img class="align-middle mb-2 mt-4 mt-md-2" src={FIGLogo} />
+            <img class="align-middle mb-2 mt-4 mt-md-2" src={UVALogo} />
           </div>
         </div>
         <div class="col-md-3 col-xl-2">
