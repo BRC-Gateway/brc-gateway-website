@@ -11,22 +11,7 @@ const ContactPage = () => (
       <div class="col-12">
         <h4>Contact</h4>
         <p>You can contact VEuPathDB at <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
-
-        <form>
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input type="text" className="form-control" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="name">Email</label>
-            <input type="text" className="form-control" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="name">Message</label>
-            <textarea type="textarea" className="form-control" />
-          </div>
-          <button type="submit" class="btn btn-primary">Send</button>
-        </form>
+        <p>You can contact PATRIC at <a href="mailto:help@patricbrc.org">help@patricbrc.org</a></p>
       </div>
     </div>
   </Layout>
