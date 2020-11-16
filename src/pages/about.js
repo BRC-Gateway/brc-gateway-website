@@ -32,40 +32,39 @@ const AboutPage = () => (
         <h5>Targeted Pathogens</h5>
         <p>Each BRC specializes in a different group of pathogens. Pathogens examined by the BRCs include, but are not limited to, those in the NIAID list of emerging and re-emerging infectious diseases. The BRCs specialize in the following groups of pathogens:</p>
         <div className="row">
-          <div className="col-6">
+          <div className="col-md-12">
             <table className="table">
-              <thead>
-                <tr>
-                  <th scope="col">Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</th>
-                </tr>
-              </thead>
               <tbody>
                 <tr>
+                  <td><a href="https://bv-brc.org/">Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</a></td>
                   <td>
-                    <a href="https://www.fludb.org/brc/home.spg?decorator=influenza" target="_blank">IRD</a>
-                    <br />
-                    <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a>
-                  </td>
-                  <td>
-                    Human viral families including influenza virus
+                    <strong>Principal Investigators</strong>
+                    <ul>
+                      <li>Rick Stevens, Univsity of Chicago</li>
+                      <li>Richard Scheuermann, J. Craig Venter Institute</li>
+                    </ul>
                   </td>
                 </tr>
                 <tr>
-                  <td><a href="https://patricbrc.org/" target="_blank">PATRIC</a></td>
-                  <td>Pathogenic bacterial species and closely related species</td>
+                  <td>
+                    <a href="https://www.fludb.org/brc/home.spg?decorator=influenza">IRD</a><br></br>
+                    <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">ViPR</a>
+                  </td>
+                  <td>Human viral families including influenza virus</td>
                 </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <div className="col-6">
-            <table className="table">
-              <thead>
                 <tr>
-                  <th scope="col">Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB)</th>
+                  <td>
+                    <a href="https://veupathdb.org/veupathdb/app/">Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB)</a>
+                  </td>
+                  <td>
+                    <strong>Principal Investigators</strong>
+                    <ul>
+                      <li>David S. Roos, University of Pennsylvania</li>
+                      <li>Jessica C. Kissinger, University of Georgia</li>
+                      <li>Mary Ann McDowell, University of Notre Dame</li>
+                    </ul>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <td>
                     <a href="https://amoebadb.org/" target="_blank">AmoebaDB</a>
@@ -90,24 +89,21 @@ const AboutPage = () => (
                   </td>
                   <td>Eukaryotic human pathogen species including fungi and protists</td>
                 </tr>
-
                 <tr>
                   <td>
                     <a href="https://vectorbase.org/" target="_blank">VectorBase</a>
                   </td>
                   <td>Invertebrate vectors of human pathogens including insects, arachnids, and gastropods</td>
                 </tr>
-
                 <tr>
                   <td>
-                    <a href="https://hostdb.org/" target="_blank">HostDB</a>
+                    <a href="https://hostdb.org/">HostDB</a>
                   </td>
                   <td>Vertebrate hosts</td>
                 </tr>
-
                 <tr>
                   <td>
-                    <a href="https://orthomcl.org/" target="_blank">OrthoMCL</a>
+                    <a href="https://orthomcl.org/">OrthoMCL</a>
                   </td>
                   <td>Ortholog groups of protein sequences</td>
                 </tr>
@@ -115,14 +111,9 @@ const AboutPage = () => (
             </table>
           </div>
         </div>
-
-        <hr />
-
-        <h5>Usage Metrics</h5>
-
       </div>
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default AboutPage

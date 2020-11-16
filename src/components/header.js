@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/tools">Tools</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/calendar">Calendar</Link>
+            <Link className="nav-link" to="/outreach">Outreach</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/publications">Publications</Link>
@@ -62,7 +62,7 @@ const Header = ({ siteTitle }) => (
             <Link className="nav-link" to="/tools">Tools</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/calendar">Calendar</Link>
+            <Link className="nav-link" to="/outreach">Outreach</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/publications">Publications</Link>
