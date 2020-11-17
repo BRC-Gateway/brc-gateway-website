@@ -10,10 +10,16 @@ const CalendarPage = () => (
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-md-12">
         <h4>Outreach Materials</h4>
-        <a href="https://docs.patricbrc.org/tutorial/" target="_blank">PATRIC Tutorials and Documentation</a><br />
-        <a href="https://www.fludb.org/brc/influenzaTutorials.spg?decorator=influenza" target="_blank">IRD Tutorials and Training Materials</a><br />
-        <a href="https://www.viprbrc.org/brc/viprTutorials.spg?decorator=vipr" target="_blank">ViPR Tutorials and Training Materials</a><br />
-        <a href="https://veupathdb.org/veupathdb/app/static-content/landing.html" target="_blank">VEuPathDB Learning Materials</a><br />
+        <div className="row">
+          <div className="col-6">
+            <a href="https://docs.patricbrc.org/tutorial/" target="_blank">PATRIC Tutorials and Documentation</a><br />
+            <a href="https://www.fludb.org/brc/influenzaTutorials.spg?decorator=influenza" target="_blank">IRD Tutorials and Training Materials</a><br />
+          </div>
+          <div className="col-6">
+            <a href="https://www.viprbrc.org/brc/viprTutorials.spg?decorator=vipr" target="_blank">ViPR Tutorials and Training Materials</a><br />
+            <a href="https://veupathdb.org/veupathdb/app/static-content/landing.html" target="_blank">VEuPathDB Learning Materials</a><br />
+          </div>
+        </div>
         <br />
         <hr />
         <h4>Outreach Calendar</h4>
