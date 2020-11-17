@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
 
 const ToolsPage = () => (
   <Layout>
@@ -19,7 +19,7 @@ const ToolsPage = () => (
             <table className="table table-sm">
               <thead>
                 <tr>
-                  <th scope="col">Viruses - <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">ViPR</a></th>
+                  <th scope="col">Viruses - <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></th>
                   <th scope="col">Description</th>
                 </tr>
               </thead>
@@ -101,7 +101,7 @@ const ToolsPage = () => (
                   <td>Identifies experimentally characterized sequence features or phenotypic variant types.</td>
                 </tr>
                 <tr>
-                  <td>SARS-Cov-2 Genome Assembly and Annotation (via <a href="https://www.bv-brc.org/">BV-BRC</a>)</td>
+                  <td>SARS-Cov-2 Genome Assembly and Annotation (via <a href="https://www.bv-brc.org/" target="_blank">BV-BRC</a>)</td>
                   <td>Provides meta-service that performs tailored genome assembly, annotation, and variation analysis of
                   SARS-CoV-2 genome reads.</td>
                 </tr>
@@ -111,7 +111,7 @@ const ToolsPage = () => (
             <table className="table table-sm">
               <thead>
                 <tr>
-                  <th scope="col">Bacteria - <a href="https://patricbrc.org">PATRIC</a></th>
+                  <th scope="col">Bacteria - <a href="https://patricbrc.org" target="_blank">PATRIC</a></th>
                   <th scope="col">Description</th>
                 </tr>
               </thead>
@@ -202,7 +202,7 @@ const ToolsPage = () => (
             <table className="table table-sm">
               <thead>
                 <tr>
-                  <th scope="col">Eukaryotes/Vectors- <a href="https://veupathdb.org">VEuPathDB</a></th>
+                  <th scope="col">Eukaryotes/Vectors- <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></th>
                   <th scope="col">Description</th>
                 </tr>
               </thead>
