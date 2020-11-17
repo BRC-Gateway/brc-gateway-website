@@ -17,20 +17,24 @@ const TaxaPage = () => (
             <h6><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a> &amp; other <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">Viruses</a></h6>
             <hr />
             <ul>
-              <li><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a></li>
+              <li><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a></li><br />
+              <li><strong>Single-Stranded-Postive-Sense RNA</strong></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=calici">Caliciviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=corona">Coronaviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=flavi">Flaviviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=hepe">Hepeviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=picorna">Picornaviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=picorna">Picornaviridae</a></i></li>
-              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=toga">Togaviridae</a></i></li>
+              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=toga">Togaviridae</a></i></li><br />
+              <li><strong>Single-Stranded-Negative-Sense RNA</strong></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr#">Bunyavirales</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=filo">Filoviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=paramyxo">Paramyxoviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=pneumo">Pneumoviridae</a></i></li>
-              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=rhabdo">Rhabdoviridae</a></i></li>
-              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=reo">Reoviridae</a></i></li>
+              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=rhabdo">Rhabdoviridae</a></i></li><br />
+              <li><strong>Double-Stranded RNA</strong></li>
+              <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=reo">Reoviridae</a></i></li><br />
+              <li><strong>Double-Stranded DNA</strong></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=herpes">Herpesviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=pox">Poxviridae</a></i></li>
             </ul>
