@@ -13,7 +13,7 @@ const ToolsPage = () => (
         <p style={{
           fontSize: '16px'
         }}>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
-        <h5>BV-BRC Tools and Services</h5>
+        <h5>BRC Tools and Services</h5>
         <div className="row">
           <div className="col-md-12">
             <table className="table table-sm">
