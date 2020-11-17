@@ -10,11 +10,13 @@ const ToolsPage = () => (
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
         <h4>Tools</h4>
-        <p>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
+        <p style={{
+          fontSize: '16px'
+        }}>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
         <h5>BV-BRC Tools and Services</h5>
         <div className="row">
           <div className="col-md-12">
-            <table className="table">
+            <table className="table table-sm">
               <thead>
                 <tr>
                   <th scope="col">Viruses - <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">ViPR</a></th>
@@ -106,7 +108,7 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table">
+            <table className="table table-sm">
               <thead>
                 <tr>
                   <th scope="col">Bacteria - <a href="https://patricbrc.org">PATRIC</a></th>
@@ -197,7 +199,7 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table">
+            <table className="table table-sm">
               <thead>
                 <tr>
                   <th scope="col">Eukaryotes/Vectors- <a href="https://veupathdb.org">VEuPathDB</a></th>
@@ -266,103 +268,103 @@ const ToolsPage = () => (
                   <td>Provides a tool to customize downloads with any available information.</td>
                 </tr>
                 <tr>
-                  <td>Data analysis searches (all, see below for breakdown)</td>
+                  <td><strong>Data analysis searches (all, see below for breakdown)</strong></td>
                   <td>Specialized searches enabling sophisticated mining of underlying data. </td>
                 </tr>
                 <tr>
-                  <td>Annotation searches</td>
+                  <td>--- Annotation</td>
                   <td>Provides a set of searches that enable the identification of genes based on lists of IDs, user comments and annotation updates.</td>
                 </tr>
                 <tr>
-                  <td>Epigenomics</td>
+                  <td>--- Epigenomics</td>
                   <td>Provides searches to identify genes based on location of epigenetic markers.</td>
                 </tr>
                 <tr>
-                  <td>Function prediction</td>
+                  <td>--- Function prediction</td>
                   <td>Provides searches to identify genes based on predicted function using enzyme commission (EC) numbers or GO terms.</td>
                 </tr>
                 <tr>
-                  <td>Gene models</td>
+                  <td>--- Gene models</td>
                   <td>Provides a tool to identify genes based on their type and/or structural features.</td>
                 </tr>
                 <tr>
-                  <td>Genetic variation</td>
+                  <td>--- Genetic variation</td>
                   <td>Provides a tool to identify genes based on genetic variation in the population, including single nucleotide polymorphisms or copy number variation.</td>
                 </tr>
                 <tr>
-                  <td>Genomic Location</td>
+                  <td>--- Genomic Location</td>
                   <td>Provides a tool to identify genes based on their location on nuclear or non-nuclear genomes.</td>
                 </tr>
                 <tr>
-                  <td>Immunology</td>
+                  <td>--- Immunology</td>
                   <td>Provides a tool to identify genes whose protein products are predicted to contain epitopes identified by the Immune Epitope Database and Analysis Resource (IEDB).</td>
                 </tr>
                 <tr>
-                  <td>Orthology and synteny</td>
+                  <td>--- Orthology and synteny</td>
                   <td>Provides tools to identify genes based on their phyletic pattern across the tree of life.</td>
                 </tr>
                 <tr>
-                  <td>Pathways and interactions</td>
+                  <td>--- Pathways and interactions</td>
                   <td>Provides tools to identify genes based on their involvement in metabolic pathways or their interaction with other genes.</td>
                 </tr>
                 <tr>
-                  <td>Phenotype</td>
+                  <td>--- Phenotype</td>
                   <td>Provides a tool to identify genes based on available phenotype datasets.</td>
                 </tr>
                 <tr>
-                  <td>Protein features and properties</td>
+                  <td>--- Protein features and properties</td>
                   <td>Provides tools to identify genes based on the properties of the proteins they code for such as molecular weight, isoelectric point or presence of InterPro domains.</td>
                 </tr>
                 <tr>
-                  <td>Protein targeting and localization</td>
+                  <td>--- Protein targeting and localization</td>
                   <td>Provides tools to identify genes based on predicted elements that may determine their subcellular localization such as signal peptides and transmembrane domains.</td>
                 </tr>
                 <tr>
-                  <td>Proteomics</td>
+                  <td>--- Proteomics</td>
                   <td>Provides tools to identify genes based on experimental proteomic data including mass spectrometry and quantitative data.</td>
                 </tr>
                 <tr>
-                  <td>Sequence analysis</td>
+                  <td>--- Sequence analysis</td>
                   <td>Provides tools to identify genes based on specified analyses such as regular expressions to define motifs</td>
                 </tr>
                 <tr>
-                  <td>Structure analysis</td>
+                  <td>--- Structure analysis</td>
                   <td>Provides tools to identify genes based on structural analyses.</td>
                 </tr>
                 <tr>
-                  <td>Taxonomy</td>
+                  <td>--- Taxonomy</td>
                   <td>Provides a tool to identify genes based on their taxonomy.</td>
                 </tr>
                 <tr>
-                  <td>Transcriptomics</td>
+                  <td>--- Transcriptomics</td>
                   <td>Provides tools to identify genes based on experimental transcriptomic data including expressed sequence tags, microarrays or RNA sequencing.</td>
                 </tr>
                 <tr>
-                  <td>Popset Isolate Sequences</td>
+                  <td>--- Popset Isolate Sequences</td>
                   <td>Provides tools to identify isolates retrieved from the PopSet database using information about the isolates or by sequence similarity.</td>
                 </tr>
                 <tr>
-                  <td>Genomic Sequences</td>
+                  <td>--- Genomic Sequences</td>
                   <td>Provides tools to retrieve genomic sequences such as contigs, scaffolds or chromosomes</td>
                 </tr>
                 <tr>
-                  <td>Genomic Segments</td>
+                  <td>--- Genomic Segments</td>
                   <td>Provides tools to identify specific segments in the genomic sequence by location or regular expressions. </td>
                 </tr>
                 <tr>
-                  <td>Single Nucleotide Polymorphisms (SNPs)</td>
+                  <td>--- Single Nucleotide Polymorphisms (SNPs)</td>
                   <td>Provides tools to find SNPs identified from next generation sequencing data that distinguish specified populations.</td>
                 </tr>
                 <tr>
-                  <td>Expressed Sequence Tags (ESTs)</td>
+                  <td>--- Expressed Sequence Tags (ESTs)</td>
                   <td>Provides tools to identify ESTs retrieved from dbEST.</td>
                 </tr>
                 <tr>
-                  <td>Metabolic Pathways</td>
+                  <td>--- Metabolic Pathways</td>
                   <td>Provides tools to identify metabolic pathways and to dynamically interact with pathways.</td>
                 </tr>
                 <tr>
-                  <td>Compounds</td>
+                  <td>--- Compounds</td>
                   <td>Provides tools to identify substrates and reactants found in metabolic pathways.</td>
                 </tr>
               </tbody>
