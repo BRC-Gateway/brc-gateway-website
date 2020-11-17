@@ -14,9 +14,11 @@ const TaxaPage = () => (
 
         <div className="row">
           <div className="col-md-3">
-            <h6><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a> &amp; other <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">Viruses</a></h6>
+            <h6><a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">Viruses</a></h6>
             <hr />
             <ul>
+              <li><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a></li>
+              <br />
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr#">Bunyavirales</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=calici">Caliciviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=corona">Coronaviridae</a></i></li>
@@ -24,7 +26,6 @@ const TaxaPage = () => (
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=flavi">Flaviviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=hepe">Hepeviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=herpes">Herpesviridae</a></i></li>
-              <li><a href="https://www.fludb.org/brc/home.spg?decorator=influenza">Influenza</a></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=paramyxo">Paramyxoviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=picorna">Picornaviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=pneumo">Pneumoviridae</a></i></li>
@@ -63,6 +64,7 @@ const TaxaPage = () => (
               <li><i><a href="https://patricbrc.org/view/Taxonomy/1301#view_tab=overview">Streptococcus</a></i></li>
               <li><i><a href="https://patricbrc.org/view/Taxonomy/662#view_tab=overview">Vibrio</a></i></li>
               <li><i><a href="https://patricbrc.org/view/Taxonomy/629#view_tab=overview">Yersinia</a></i></li>
+              <br />
               <li><a href="https://patricbrc.org/view/Taxonomy/2157">Archaea</a></li>
               <li><a href="https://patricbrc.org/view/Taxonomy/10239">Bacteriophages</a></li>
             </ul>
