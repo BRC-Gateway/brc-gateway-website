@@ -36,7 +36,7 @@ const AboutPage = () => (
             <table className="table">
               <tbody>
                 <tr>
-                  <td><a href="https://bv-brc.org/">Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</a></td>
+                  <td><a href="https://bv-brc.org/" target="_blank">Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</a></td>
                   <td>
                     <strong>Principal Investigators</strong>
                     <ul>
@@ -47,14 +47,14 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://www.fludb.org/brc/home.spg?decorator=influenza">IRD</a><br></br>
-                    <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr">ViPR</a>
+                    <a href="https://www.fludb.org/brc/home.spg?decorator=influenza" target="_blank">IRD</a><br></br>
+                    <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a>
                   </td>
                   <td>Human viral families including influenza virus</td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://veupathdb.org/veupathdb/app/">Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB)</a>
+                    <a href="https://veupathdb.org/veupathdb/app/" target="_blank">Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB)</a>
                   </td>
                   <td>
                     <strong>Principal Investigators</strong>
@@ -97,13 +97,13 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://hostdb.org/">HostDB</a>
+                    <a href="https://hostdb.org/" target="_blank">HostDB</a>
                   </td>
                   <td>Vertebrate hosts</td>
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://orthomcl.org/">OrthoMCL</a>
+                    <a href="https://orthomcl.org/" target="_blank">OrthoMCL</a>
                   </td>
                   <td>Ortholog groups of protein sequences</td>
                 </tr>
@@ -111,9 +111,9 @@ const AboutPage = () => (
             </table>
 
             <h5>Website Usage</h5>
-            <a href="https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined">BV-BRC Stats</a>
+            <a href="https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined" target="_blank">BV-BRC Stats</a>
             <br />
-            <a href="https://veupathdb.org/awstats/awstats.pl?config=All_EBRC_Combined">VDuPathDB Stats</a>
+            <a href="https://veupathdb.org/awstats/awstats.pl?config=All_EBRC_Combined" target="_blank">VDuPathDB Stats</a>
           </div>
         </div>
       </div>
