@@ -92,9 +92,7 @@ const TaxaPage = () => (
               <li><i><a href="https://trichdb.org/">Trichomonas</a></i></li>
               <li><i><a href="https://tritrypdb.org/">Trypanosoma</a></i></li>
             </ul>
-          </div>
 
-          <div className="col-md-3">
             <h6><a href="https://fungidb.org/fungidb/app/search/organism/GenomeDataTypes?autoRun">Fungi</a></h6>
             <hr />
             <ul>
@@ -107,7 +105,9 @@ const TaxaPage = () => (
               <li><i><a href="https://fungidb.org/fungidb/app">Pneumocystis</a></i></li>
               <li><i><a href="https://fungidb.org/">Oomycetes</a></i></li>
             </ul>
+          </div>
 
+          <div className="col-md-3">
             <h6><a href="https://vectorbase.org/vectorbase/app/search/organism/GenomeDataTypes?autoRun">Vectors</a></h6>
             <hr />
             <ul>
