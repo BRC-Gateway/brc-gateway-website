@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import SEO from "../components/Seo"
 
 const AboutPage = () => (
   <Layout>
@@ -16,7 +16,7 @@ const AboutPage = () => (
         <hr />
 
         <h5>Main Areas of Focus</h5>
-        <div className="col-8">
+        <div className="col-12">
           <ul style={{
             listStyle: 'disc',
           }}>
