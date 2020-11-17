@@ -16,10 +16,10 @@ import "../styles/global.css"
 
 import "../scripts/fa5.min.js"
 
-import Header from "./header"
-import Calendar from "./calendar"
-import Twitter from "./twitter"
-import Footer from "./footer"
+import Header from "./Header"
+import Calendar from "./Calendar"
+import Twitter from "./Twitter"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

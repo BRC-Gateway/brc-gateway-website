@@ -1,67 +1,11 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 
-
-const CAL_ID = 'chicagosummercalendar@gmail.com'
-const URL = `https://www.googleapis.com/calendar/v3/calendars/${CAL_ID}/events?key=AIzaSyCiCvVI748zL5OQANeAO-iGpAQemdXfhug`
-
-const DESCRIPTION_LENGTH = 100
-
-
-const Calendar = () => {
-
-  const [events, setEvents] = useState(null)
-  const [error, setError] = useState(null)
-
-  useEffect(() => {
-    const timeMin = (new Date()).toISOString()
-    const maxResults = 3
-    const orderBy = 'startTime'
-
-    fetch(
-      `${URL}&timeMin=${timeMin}&maxResults=${maxResults}&orderBy=${orderBy}` +
-      `&singleEvents=true&calendarID=primary`
-    ).then(res => res.json())
-      .then(data => {
-        setEvents(data.items)
-      }).catch(err => setError(err))
-  }, [])
-
-
-  return (
-    <div>
-      <h5>Event Calendar</h5>
-
-      {events &&
-        <ul>
-          {events.map((event, i) => {
-            const { description, summary, start, htmlLink } = event
-
-            return (
-              <li key={i}>
-                <h6>{summary}</h6>
-                <i style={{ fontSize: '1em' }}>
-                  {new Date(start.dateTime).toLocaleDateString()}{' '}
-                  {new Date(start.dateTime).toLocaleTimeString()}
-                </i>
-                <p style={{ fontSize: '0.9em' }}>
-                  {description.slice(0, DESCRIPTION_LENGTH) +
-                    (description.length > DESCRIPTION_LENGTH ? '... ' : ' ')
-                  }
-                  <a href={htmlLink} target="_blank">read more</a>
-                </p>
-              </li>
-            )
-          })}
-        </ul>
-      }
-
-      {error &&
-        'There was an issue fetching the calendar'
-      }
-    </div>
-  )
-}
-
+const Calendar = () => (
+  <>
+    <h5>Event Calendar</h5>
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YnJjZ2F0ZXdheUBnbWFpbC5jb20&amp;src=Y19xbG9ncGFwYnViZmh1M2c3cmgzZWsyODlhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=YnZicmMxQGdtYWlsLmNvbQ&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%230B8043&amp;showTitle=0&amp;showCalendars=0&amp;showTabs=1&amp;showPrint=0&amp;showDate=0&amp;showNav=0&amp;showTz=0&amp;mode=AGENDA" style={{ borderWidth: '0', }} width="300" height="325" frameborder="0" scrolling="no"></iframe>
+  </>
+)
 
 
 export default Calendar

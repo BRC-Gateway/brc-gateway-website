@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import Image from "../components/Image"
+import SEO from "../components/Seo"
 
 import BRCLogoBlack from "../images/brc-logo-black.png"
 import IconHosts from "../images/icon-hosts.png"
@@ -41,11 +41,14 @@ const IndexPage = () => (
         <li class="circle-grid">
           <div class="org-circle dummy"></div>
         </li>
+
         <li>
           <div class="org-circle">
-            <a href="javascript:showhide('#do_hosts')" id="hosts">
+
+            <a href="#" id="hosts">
               <img class="img-fluid" src={IconHosts} />
             </a>
+
             <div class="info info-left">
               <span>Host Mammals</span>
               <div id="do_hosts" style={{
@@ -56,11 +59,13 @@ const IndexPage = () => (
                 </ul>
               </div>
             </div>
+
           </div>
         </li>
+
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="javascript:showhide('#do_viruses')" id="viruses">
+            <a href="#" id="viruses">
               <img class="img-fluid" src={IconViruses} />
             </a>
             <div class="info info-right">
@@ -76,7 +81,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="javascript:showhide('#do_vectors')" id="vectors">
+            <a href="#" id="vectors">
               <img class="img-fluid" src={IconVectors} />
             </a>
             <div class="info info-left">
@@ -94,7 +99,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="javascript:showhide('#do_bacteria')" id="bacteria">
+            <a href="#'" id="bacteria">
               <img class="img-fluid" src={IconBacteria} />
             </a>
             <div class="info info-right">
@@ -112,7 +117,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="javascript:showhide('#do_fungi')" id="fungi">
+            <a href="#" id="fungi">
               <img class="img-fluid" src={IconFungi} />
             </a>
             <div class="info info-left">
@@ -127,7 +132,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="javascript:showhide('#do_protozoa')" id="protozoa">
+            <a href="#" id="protozoa">
               <img class="img-fluid" src={IconProtozoa} />
             </a>
             <div class="info info-right bkgrnd">
