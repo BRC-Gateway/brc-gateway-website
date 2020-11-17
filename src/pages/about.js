@@ -109,6 +109,11 @@ const AboutPage = () => (
                 </tr>
               </tbody>
             </table>
+
+            <h5>Website Usage</h5>
+            <a href="https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined">BV-BRC Stats</a>
+            <br />
+            <a href="https://veupathdb.org/awstats/awstats.pl?config=All_EBRC_Combined">VDuPathDB Stats</a>
           </div>
         </div>
       </div>
