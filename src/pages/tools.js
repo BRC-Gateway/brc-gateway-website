@@ -6,19 +6,18 @@ import SEO from "../components/Seo"
 
 const ToolsPage = () => (
   <Layout>
-    <SEO title="Tools" />
+    <SEO title="BRC Tools and Services" />
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
-        <h4>Tools</h4>
+        <h4>BRC Tools and Services</h4>
         <p style={{
           fontSize: '16px'
         }}>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
-        <h5>BRC Tools and Services</h5>
         <div className="row">
           <div className="col-md-12">
-            <table className="table table-sm">
+            <table className="table">
               <thead>
-                <tr>
+                <tr style={{ fontSize: '18px' }}>
                   <th scope="col">Viruses - <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></th>
                   <th scope="col">Description</th>
                 </tr>
@@ -108,9 +107,9 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table table-sm">
+            <table className="table">
               <thead>
-                <tr>
+                <tr style={{ fontSize: '18px' }}>
                   <th scope="col">Bacteria - <a href="https://patricbrc.org" target="_blank">PATRIC</a></th>
                   <th scope="col">Description</th>
                 </tr>
@@ -199,9 +198,9 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table table-sm">
+            <table className="table">
               <thead>
-                <tr>
+                <tr style={{ fontSize: '18px' }}>
                   <th scope="col">Eukaryotes/Vectors- <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></th>
                   <th scope="col">Description</th>
                 </tr>
@@ -268,7 +267,7 @@ const ToolsPage = () => (
                   <td>Provides a tool to customize downloads with any available information.</td>
                 </tr>
                 <tr>
-                  <td><strong>Data analysis searches (all, see below for breakdown)</strong></td>
+                  <td style={{ fontSize: '18px' }}><strong>Data analysis searches</strong></td>
                   <td>Specialized searches enabling sophisticated mining of underlying data. </td>
                 </tr>
                 <tr>
