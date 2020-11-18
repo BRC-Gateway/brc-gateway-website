@@ -178,7 +178,7 @@ const IndexPage = () => (
                 <a href="https://www.facebook.com/BVBRC19"><i class="fab fa-facebook"></i></a>
               </li>
               <li class="list-group-item">
-                <a href="https://youtube.com/user/PATRICBRC"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCDkT2ZCWhK3GBtm5R-o1J4A"><i class="fab fa-youtube"></i></a>
               </li>
             </ul>
           </div>
