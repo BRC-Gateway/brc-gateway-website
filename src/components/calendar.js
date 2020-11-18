@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 const calID1 = 'bvbrc1@gmail.com'
@@ -15,16 +15,16 @@ const maxDescriptLength = 100
 const dateConfig = {
   month: 'short',
   year: 'numeric',
-  day:'numeric',
+  day: 'numeric',
   hour: '2-digit',
   minute: '2-digit'
 }
 
 
 const formatCalDate = (start, end) => {
-  const config = {...dateConfig}
+  const config = { ...dateConfig }
 
-  let {dateTime, date} = start
+  let { dateTime, date } = start
 
   // if only date, add a day and remove time from config
   if (!dateTime && date) {
@@ -83,7 +83,7 @@ const Calendar = () => {
       {events &&
         <ul>
           {events.map((event, i) => {
-            const {description = '', summary, start, end, htmlLink} = event
+            const { description = '', summary, start, end, htmlLink } = event
 
             return (
               <li key={i}>
@@ -94,11 +94,11 @@ const Calendar = () => {
                   </a>
                 </h6>
 
-                <b style={{fontSize: '0.9em'}}>
+                <b style={{ fontSize: '0.9em' }}>
                   {formatCalDate(start, end)}
                 </b>
 
-                <p style={{fontSize: '0.9em'}}>
+                <p style={{ fontSize: '0.9em' }}>
                   {description.slice(0, maxDescriptLength) +
                     (description.length > maxDescriptLength ? '... ' : ' ')
                   }
@@ -117,7 +117,7 @@ const Calendar = () => {
         'There was an issue fetching the calendar summary.'
       }
 
-      <Link to="/calendar" className="btn btn-outline-dark rounded-pill">All Events »</Link>
+      <Link to="/outreach" className="btn btn-outline-dark rounded-pill">All Events »</Link>
     </div>
   )
 }
