@@ -175,7 +175,7 @@ const IndexPage = () => (
                 <a href="https://twitter.com/BVBRC_DB"><i class="fab fa-twitter"></i></a>
               </li>
               <li class="list-group-item">
-                <a href="https://facebook.com/pages/Pathosystems-Resource-Integration-Center-PATRIC/117100971687823"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.facebook.com/BVBRC19"><i class="fab fa-facebook"></i></a>
               </li>
               <li class="list-group-item">
                 <a href="https://youtube.com/user/PATRICBRC"><i class="fab fa-youtube"></i></a>
