@@ -10,7 +10,7 @@ const TaxaPage = () => (
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
         <h4>Taxa</h4>
-        <p>The BRCs include, but not limited to, organisms in the <a href="https://www.niaid.nih.gov/node/3275" target="_blank">NIAID list of emerging and re-emerging infectious diseases</a>, plus vectors of human pathogens. The table below provides direct links to major taxonomic groups supported by the BRCs.</p>
+        <p>The BRCs include, but are not limited to, organisms in the <a href="https://www.niaid.nih.gov/node/3275" target="_blank">NIAID list of emerging and re-emerging infectious diseases</a>, plus vectors of human pathogens. The table below provides direct links to major taxonomic groups supported by the BRCs.</p>
 
         <div className="row">
           <div className="col-md-3">
