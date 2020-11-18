@@ -1,4 +1,4 @@
-/* 
+/*
    Bootstrap style overrides for EukOmicsDB site
 -------------------------------------------------- */
 
@@ -10,7 +10,7 @@ body {
 }
 
 main > .container-fluid.max-1600 {
-  padding-top: 10px; 
+  padding-top: 10px;
   max-width: 1600px;
   background: #fff;
 }
@@ -69,11 +69,11 @@ p.emphasis {
 /* Change default dark bkgrnd color */
 
 h1,h2,h3,h4,h5,h6 {
-  color: #234d69; 
+  color: #234d69;
 }
 
 .bg-dark {
-  background-color: #234d69!important; 
+  background-color: #234d69!important;
 }
 
 .btn-outline-dark {
@@ -97,11 +97,11 @@ h1.border-bottom {
 }
 
 a {
-  color: #5375b9; /* #5375b9 1395ba */
+  color: #2b7bb9; /* #5375b9 1395ba */
 }
 
 .bg-wash {
-  background: #eef0f2; 
+  background: #eef0f2;
 }
 
 
@@ -186,7 +186,7 @@ a {
     -ms-transform: translateX(15%);
     transform: translateX(15%);
 }
-#grid li:nth-child(6n+4) { 
+#grid li:nth-child(6n+4) {
     margin-left: 0.5%;
 }
 #grid li .org-circle.dummy {
@@ -324,6 +324,20 @@ a {
   }
 }
 
+
+
+/* Utility classes */
+
+[target=_blank] .fa-external-link-alt {
+  visibility: hidden;
+}
+
+[target=_blank]:hover .fa-external-link-alt {
+  visibility: visible;
+  color: #666;
+  margin-left: 5px;
+  font-size: .9em;
+}
 
 
 
