@@ -33,6 +33,8 @@ const TaxaPage = () => (
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=reo" target="_blank">Reoviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=rhabdo" target="_blank">Rhabdoviridae</a></i></li>
               <li><i><a href="https://www.viprbrc.org/brc/home.spg?decorator=toga" target="_blank">Togaviridae</a></i></li>
+              <br />
+              <li><a href="https://patricbrc.org/view/Taxonomy/10239" target="_blank">Bacteriophages</a></li>
             </ul>
           </div>
 
@@ -66,7 +68,6 @@ const TaxaPage = () => (
               <li><i><a href="https://patricbrc.org/view/Taxonomy/629#view_tab=overview" target="_blank">Yersinia</a></i></li>
               <br />
               <li><a href="https://patricbrc.org/view/Taxonomy/2157" target="_blank">Archaea</a></li>
-              <li><a href="https://patricbrc.org/view/Taxonomy/10239" target="_blank">Bacteriophages</a></li>
             </ul>
           </div>
 
