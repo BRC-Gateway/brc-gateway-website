@@ -280,7 +280,13 @@ a {
   font-size: 1.2rem;
 }
 
-
+/* Twitter */
+h1.timeline-Header-title {
+  color: #234d69!important;
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+}
 
 /* Footer */
 
