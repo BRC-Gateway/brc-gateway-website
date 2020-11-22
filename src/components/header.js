@@ -14,6 +14,9 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
+            <Link className="nav-link" to="/about">About</Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/taxa">Taxa</Link>
           </li>
           <li className="nav-item">
@@ -24,12 +27,6 @@ const Header = ({ siteTitle }) => (
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/publications">Publications</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
         {/* <ul className="navbar-nav">
@@ -56,6 +53,9 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
+            <Link className="nav-link" to="/about">About</Link>
+          </li>
+          <li className="nav-item">
             <Link className="nav-link" to="/taxa">Taxa</Link>
           </li>
           <li className="nav-item">
@@ -66,12 +66,6 @@ const Header = ({ siteTitle }) => (
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/publications">Publications</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
           </li>
         </ul>
         {/* <ul className="navbar-nav">
