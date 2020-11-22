@@ -13,6 +13,59 @@ import IconBacteria from "../images/icon-bacteria.png"
 import IconFungi from "../images/icon-fungi.png"
 import IconProtozoa from "../images/icon-protozoa.png"
 
+const hostToggle = () => {
+  const hostList = document.getElementById("do_hosts");
+  if (hostList.style.display === "none") {
+    hostList.style.display = "block";
+  } else {
+    hostList.style.display = "none";
+  }
+}
+const virusToggle = () => {
+  const virusList = document.getElementById("do_viruses");
+  if (virusList.style.display === "none") {
+    virusList.style.display = "block";
+  } else {
+    virusList.style.display = "none";
+  }
+}
+
+const vectorToggle = () => {
+  const vectorList = document.getElementById("do_vectors");
+  if (vectorList.style.display === "none") {
+    vectorList.style.display = "block";
+  } else {
+    vectorList.style.display = "none";
+  }
+}
+
+const bacteriaToggle = () => {
+  const bacteriaList = document.getElementById("do_bacteria");
+  if (bacteriaList.style.display === "none") {
+    bacteriaList.style.display = "block";
+  } else {
+    bacteriaList.style.display = "none";
+  }
+}
+
+const fungiToggle = () => {
+  const fungiList = document.getElementById("do_fungi");
+  if (fungiList.style.display === "none") {
+    fungiList.style.display = "block";
+  } else {
+    fungiList.style.display = "none";
+  }
+}
+
+const protozoaToggle = () => {
+  const protozoaList = document.getElementById("do_protozoa");
+  if (protozoaList.style.display === "none") {
+    protozoaList.style.display = "block";
+  } else {
+    protozoaList.style.display = "none";
+  }
+}
+
 const IndexPage = () => (
   <Layout>
     <SEO title="NIAID Bioinformatics Resource Centers" />
@@ -44,11 +97,9 @@ const IndexPage = () => (
 
         <li>
           <div class="org-circle">
-
-            <a href="#" id="hosts">
+            <a href="#" id="hosts" onClick={hostToggle}>
               <img class="img-fluid" src={IconHosts} />
             </a>
-
             <div class="info info-left">
               <span>Host Mammals</span>
               <div id="do_hosts" style={{
@@ -65,7 +116,7 @@ const IndexPage = () => (
 
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="#" id="viruses">
+            <a href="#" id="viruses" onClick={virusToggle}>
               <img class="img-fluid" src={IconViruses} />
             </a>
             <div class="info info-right">
@@ -81,7 +132,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="#" id="vectors">
+            <a href="#" id="vectors" onClick={vectorToggle}>
               <img class="img-fluid" src={IconVectors} />
             </a>
             <div class="info info-left">
@@ -99,7 +150,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="#'" id="bacteria">
+            <a href="#'" id="bacteria" onClick={bacteriaToggle}>
               <img class="img-fluid" src={IconBacteria} />
             </a>
             <div class="info info-right">
@@ -117,7 +168,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="#" id="fungi">
+            <a href="#" id="fungi" onClick={fungiToggle}>
               <img class="img-fluid" src={IconFungi} />
             </a>
             <div class="info info-left">
@@ -132,7 +183,7 @@ const IndexPage = () => (
         </li>
         <li class="circle-grid">
           <div class="org-circle">
-            <a href="#" id="protozoa">
+            <a href="#" id="protozoa" onClick={protozoaToggle}>
               <img class="img-fluid" src={IconProtozoa} />
             </a>
             <div class="info info-right bkgrnd">
