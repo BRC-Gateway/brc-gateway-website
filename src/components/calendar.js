@@ -78,7 +78,7 @@ const Calendar = () => {
 
   return (
     <div className="p-2">
-      <h5>Upcomming Events</h5>
+      <h5>Upcoming Events</h5>
 
       {events &&
         <ul>
