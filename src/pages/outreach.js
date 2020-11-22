@@ -12,7 +12,7 @@ const CalendarPage = () => (
         <h4>Outreach</h4>
         <p>The BRCs maintain an active outreach program to engage and support the research communities. Efforts include development and publishing of extensive documentation and training materials to guide researchers in how to most effectively use the BRC resources. The BRCs also host webinars, workshops, and conference booths to provide live, hands-on demonstration of BRC websites and functionality.</p>
         <hr />
-        <h4>Materials</h4>
+        <h4>Tutorials and Training Materials</h4>
         <div className="row">
           <div className="col-6">
             <a href="https://docs.patricbrc.org/tutorial/" target="_blank">PATRIC Tutorials and Documentation</a><br />
