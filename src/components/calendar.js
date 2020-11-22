@@ -117,7 +117,7 @@ const Calendar = () => {
         'There was an issue fetching the calendar summary.'
       }
 
-      <Link to="/outreach" className="btn btn-outline-dark rounded-pill">All Events »</Link>
+      <Link to="/outreach#calendar" className="btn btn-outline-dark rounded-pill">All Events »</Link>
     </div>
   )
 }
