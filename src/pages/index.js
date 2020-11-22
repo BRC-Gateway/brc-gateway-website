@@ -101,7 +101,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconHosts} />
             </a>
             <div class="info info-left">
-              <span>Host Mammals</span>
+              <span onClick={hostToggle}>Host Mammals</span>
               <div id="do_hosts" style={{
                 display: 'none',
               }}>
@@ -120,7 +120,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconViruses} />
             </a>
             <div class="info info-right">
-              <span>Viruses</span>
+              <span onClick={virusToggle}>Viruses</span>
               <div id="do_viruses" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="https://www.fludb.org/brc/home.spg?decorator=influenza" target="_blank">IRD</a></li>
@@ -136,7 +136,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconVectors} />
             </a>
             <div class="info info-left">
-              <span>Vectors</span>
+              <span onClick={vectorToggle}>Vectors</span>
               <div id="do_vectors" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="https://vectorbase.org/vectorbase/app" target="_blank">VectorBase</a></li>
@@ -154,7 +154,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconBacteria} />
             </a>
             <div class="info info-right">
-              <span>Bacteria</span>
+              <span onClick={bacteriaToggle}>Bacteria</span>
               <div id="do_bacteria" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="https://www.patricbrc.org/" target="_blank">PATRIC</a></li>
@@ -172,7 +172,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconFungi} />
             </a>
             <div class="info info-left">
-              <span>Fungi</span>
+              <span onClick={fungiToggle}>Fungi</span>
               <div id="do_fungi" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="https://fungidb.org/fungidb/app" target="_blank">FungiDB</a></li>
@@ -187,7 +187,7 @@ const IndexPage = () => (
               <img class="img-fluid" src={IconProtozoa} />
             </a>
             <div class="info info-right bkgrnd">
-              <span>Protozoa</span>
+              <span onClick={protozoaToggle}>Protozoa</span>
               <div id="do_protozoa" class="tw-mt-1" style={{ display: 'none' }}>
                 <ul>
                   <li><a href="" target="_blank">AmoebaDB</a></li>
