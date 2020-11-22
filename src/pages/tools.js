@@ -11,17 +11,14 @@ const ToolsPage = () => (
       <div class="col-12">
         <h4>BRC Tools and Services</h4>
         <p style={{
-          fontSize: '16px'
+          fontSize: '0.9rem'
         }}>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
+        <hr />
         <div className="row">
           <div className="col-md-12">
-            <table className="table">
-              <thead>
-                <tr style={{ fontSize: '18px' }}>
-                  <th scope="col">Viruses - <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></th>
-                  <th scope="col">Description</th>
-                </tr>
-              </thead>
+            <h5><a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></h5>
+            <h6>Virus Tools and Descriptions</h6>
+            <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
                   <td>Identify Similar Sequences (BLAST)</td>
@@ -107,13 +104,10 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table">
-              <thead>
-                <tr style={{ fontSize: '18px' }}>
-                  <th scope="col">Bacteria - <a href="https://patricbrc.org" target="_blank">PATRIC</a></th>
-                  <th scope="col">Description</th>
-                </tr>
-              </thead>
+            <hr />
+            <h5><a href="https://patricbrc.org" target="_blank">PATRIC</a></h5>
+            <h6>Bacteria Tools and Descriptions</h6>
+            <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
                   <td>BLAST</td>
@@ -198,13 +192,10 @@ const ToolsPage = () => (
               </tbody>
             </table>
 
-            <table className="table">
-              <thead>
-                <tr style={{ fontSize: '18px' }}>
-                  <th scope="col">Eukaryotes/Vectors- <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></th>
-                  <th scope="col">Description</th>
-                </tr>
-              </thead>
+            <hr />
+            <h5><a href="https://veupathdb.org" target="_blank">VEuPathDB</a></h5>
+            <h6>Eukaryotes/Vectors Tools and Descriptions</h6>
+            <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
                   <td>BLAST</td>
