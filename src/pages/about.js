@@ -73,25 +73,32 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://amoebadb.org/" target="_blank">AmoebaDB</a>
-                    <br />
-                    <a href="https://cryptodb.org/" target="_blank">CryptoDB</a>
-                    <br />
-                    <a href="https://fungidb.org/" target="_blank">FungiDB</a>
-                    <br />
-                    <a href="https://giardiadb.org/" target="_blank">GiardiaDB</a>
-                    <br />
-                    <a href="https://microsporidiadb.org/" target="_blank">MicrosporidaDB</a>
-                    <br />
-                    <a href="https://piroplasmadb.org/" target="_blank">PiroplasmaDB</a>
-                    <br />
-                    <a href="https://plasmodb.org/" target="_blank">PlasmoDB</a>
-                    <br />
-                    <a href="https://toxodb.org/" target="_blank">ToxoDB</a>
-                    <br />
-                    <a href="https://trichdb.org/" target="_blank">TrichDB</a>
-                    <br />
-                    <a href="https://tritrypdb.org/" target="_blank">TriTrypDB</a>
+                    <div style={{ display: 'inline-block' }}>
+                      <a href="https://amoebadb.org/" target="_blank">AmoebaDB</a>
+                      <br />
+                      <a href="https://cryptodb.org/" target="_blank">CryptoDB</a>
+                      <br />
+                      <a href="https://fungidb.org/" target="_blank">FungiDB</a>
+                      <br />
+                      <a href="https://giardiadb.org/" target="_blank">GiardiaDB</a>
+                      <br />
+                      <a href="https://microsporidiadb.org/" target="_blank">MicrosporidaDB</a>
+                      <br />
+                    </div>
+                    <div style={{ display: 'inline-block', marginLeft: '30px' }}>
+                      <a href="https://piroplasmadb.org/" target="_blank">PiroplasmaDB</a>
+                      <br />
+                      <a href="https://plasmodb.org/" target="_blank">PlasmoDB</a>
+                      <br />
+                      <a href="https://toxodb.org/" target="_blank">ToxoDB</a>
+                      <br />
+                      <a href="https://trichdb.org/" target="_blank">TrichDB</a>
+                      <br />
+                      <a href="https://tritrypdb.org/" target="_blank">TriTrypDB</a>
+                      <br />
+                    </div>
+
+
                   </td>
                   <td>Eukaryotic human pathogen species including fungi and protists</td>
                 </tr>
