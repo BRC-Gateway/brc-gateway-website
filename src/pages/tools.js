@@ -15,9 +15,20 @@ const ToolsPage = () => (
         }}>The BRCs include a wide array of tools and services to enable researchers to locate, filter, process, analyze, and explore data. Note that many of these tools require login to the BRC to enable use with private data.</p>
         <hr />
         <div className="row">
+          <div className="col-md-4">
+            <h6><a href="#ird-vipr">IRD/ViPR</a></h6>
+          </div>
+          <div className="col-md-4">
+            <h6><a href="#patric">PATRIC</a></h6>
+          </div>
+          <div className="col-md-4">
+            <h6><a href="#veupathdb">VEuPathDB</a></h6>
+          </div>
+        </div>
+        <hr />
+        <div className="row">
           <div className="col-md-12">
-            <h5><a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></h5>
-            <h6>Virus Tools and Descriptions</h6>
+            <h5 id="ird-vipr">Tools for Viruses at <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
@@ -105,8 +116,7 @@ const ToolsPage = () => (
             </table>
 
             <hr />
-            <h5><a href="https://patricbrc.org" target="_blank">PATRIC</a></h5>
-            <h6>Bacteria Tools and Descriptions</h6>
+            <h5 id="patric">Tools for Bacteria at <a href="https://patricbrc.org" target="_blank">PATRIC</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
@@ -193,8 +203,7 @@ const ToolsPage = () => (
             </table>
 
             <hr />
-            <h5><a href="https://veupathdb.org" target="_blank">VEuPathDB</a></h5>
-            <h6>Eukaryotes/Vectors Tools and Descriptions</h6>
+            <h5 id="veupathdb">Tools for Eukaryotes/Vectors at <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>

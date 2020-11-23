@@ -123,6 +123,8 @@ const AboutPage = () => (
               </tbody>
             </table>
 
+            <hr />
+
             <h5>Website Usage</h5>
             <a href="https://status.patricbrc.org/webstats/cgi-bin/awstats.pl?config=All_BVBRC_Combined" target="_blank">BV-BRC Stats</a>
             <br />
