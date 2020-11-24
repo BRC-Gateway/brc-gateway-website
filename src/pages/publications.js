@@ -11,7 +11,7 @@ const PublicationsPage = () => (
       <div class="col-12">
         <h4>Publications</h4>
         <p>Citations to the BRC resource as measured Google Scholar searches using predetermined set of keywords based on name and/or acronym of each of the BRC resources, and additional keywords to filter out any false positive or negative results to the extent possible. This is complementary to the citations to the BRC publications described above and necessary because, often, users cite BRC resources by mentioning the resource name or URL in the manuscript text, instead of citing relevant publications.</p>
-        <h5><a href="https://scholar.google.com/citations?user=kXLGwkYAAAAJ&hl=en&authuser=2" target="blank">Citations to BRC Publications at Google Scholar"</a></h5>
+        <h5><a href="https://scholar.google.com/citations?user=kXLGwkYAAAAJ&hl=en&authuser=2" target="blank">Citations to BRC Publications at Google Scholar</a></h5>
         <hr />
 
         <h6>2020</h6>
