@@ -190,15 +190,15 @@ const IndexPage = () => (
               <span onClick={protozoaToggle}>Protozoa</span>
               <div id="do_protozoa" class="tw-mt-1" style={{ display: 'none' }}>
                 <ul>
-                  <li><a href="" target="_blank">AmoebaDB</a></li>
-                  <li><a href="" target="_blank">CryptoDB</a></li>
-                  <li><a href="" target="_blank">GiardiaDB</a></li>
-                  <li><a href="" target="_blank">MicrosporidiaDB</a></li>
-                  <li><a href="" target="_blank">PiroplasmaDB</a></li>
-                  <li><a href="" target="_blank">PlasmoDB</a></li>
-                  <li><a href="" target="_blank">ToxoDB</a></li>
-                  <li><a href="" target="_blank">TrichDB</a></li>
-                  <li><a href="" target="_blank">TriTryphDB</a></li>
+                  <li><a href="https://amoebadb.org/" target="_blank">AmoebaDB</a></li>
+                  <li><a href="https://cryptodb.org/" target="_blank">CryptoDB</a></li>
+                  <li><a href="https://giardiadb.org/" target="_blank">GiardiaDB</a></li>
+                  <li><a href="https://microsporidiadb.org/" target="_blank">MicrosporidiaDB</a></li>
+                  <li><a href="https://piroplasmadb.org/" target="_blank">PiroplasmaDB</a></li>
+                  <li><a href="https://plasmodb.org/" target="_blank">PlasmoDB</a></li>
+                  <li><a href="https://toxodb.org/" target="_blank">ToxoDB</a></li>
+                  <li><a href="https://trichdb.org/" target="_blank">TrichDB</a></li>
+                  <li><a href="https://tritrypdb.org/" target="_blank">TriTryphDB</a></li>
                 </ul>
               </div>
             </div>
