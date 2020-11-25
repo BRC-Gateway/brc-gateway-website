@@ -16,8 +16,8 @@ const AboutPage = () => (
         <hr />
 
         <h5>Contact</h5>
-        <p>You can contact VEuPathDB at <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
-        <p>You can contact PATRIC at <a href="mailto:help@patricbrc.org">help@patricbrc.org</a></p>
+        <p>Contact VEuPathDB at <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
+        <p>Contact PATRIC at <a href="mailto:help@patricbrc.org">help@patricbrc.org</a></p>
 
         <hr />
 
