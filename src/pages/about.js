@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout"
 import SEO from "../components/Seo"
+import LayoutFullwidth from "../components/LayoutFullwidth"
 
 const AboutPage = () => (
-  <Layout>
+  <LayoutFullwidth>
     <SEO title="About" />
 
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
@@ -133,7 +133,7 @@ const AboutPage = () => (
         </div>
       </div>
     </div>
-  </Layout >
+  </LayoutFullwidth>
 )
 
 export default AboutPage

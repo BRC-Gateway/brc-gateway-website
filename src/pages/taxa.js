@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/Layout"
+import LayoutFullwidth from "../components/LayoutFullwidth"
 import SEO from "../components/Seo"
 
 const TaxaPage = () => (
-  <Layout>
+  <LayoutFullwidth>
     <SEO title="Taxa" />
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
@@ -137,7 +137,7 @@ const TaxaPage = () => (
         </div>
       </div>
     </div>
-  </Layout>
+  </LayoutFullwidth>
 )
 
 export default TaxaPage
