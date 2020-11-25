@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const CalendarPage = () => (
   <LayoutFullwidth>
     <SEO title="Outreach" />
-    <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
+    <div class="row mb-4 px-3 pt-4 pb-2 tw-border-b-4 tw-border-gray-600">
       <div class="col-md-12">
         <h4>Outreach</h4>
         <p>The BRCs maintain an active outreach program to engage and support the research communities. Efforts include development and publishing of extensive documentation and training materials to guide researchers in how to most effectively use the BRC resources. The BRCs also host webinars, workshops, and conference booths to provide live, hands-on demonstration of BRC websites and functionality.</p>

@@ -8,7 +8,7 @@ const AboutPage = () => (
   <LayoutFullwidth>
     <SEO title="About" />
 
-    <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
+    <div class="row mb-4 px-3 pt-4 pb-2 tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
         <h4>About NIAID Bioinformatics Resource Centers</h4>
         <p>The Bioinformatics Resource Centers (BRCs) for Infectious Diseases program was initiated in 2004 with the main objective of providing public access to computational platforms and analysis tools that enable  collecting, archiving, updating, and integrating a variety of genomics and related research data relevant to infectious diseases, and pathogens and their interaction with hosts. </p>

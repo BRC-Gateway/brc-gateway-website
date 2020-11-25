@@ -7,7 +7,7 @@ import SEO from "../components/Seo"
 const ToolsPage = () => (
   <LayoutFullwidth>
     <SEO title="BRC Tools and Services" />
-    <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
+    <div class="row mb-4 px-3 pt-4 pb-2 tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
         <h4>BRC Tools and Services</h4>
         <p style={{
