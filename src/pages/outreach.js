@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import LayoutFullwidth from "../components/LayoutFullwidth"
 import SEO from "../components/seo"
 
 const CalendarPage = () => (
-  <Layout>
+  <LayoutFullwidth>
     <SEO title="Outreach" />
     <div class="row mb-4 px-3 pt-4 pb-2 bg-wash tw-border-b-4 tw-border-gray-600">
       <div class="col-md-12">
@@ -30,7 +30,7 @@ const CalendarPage = () => (
         <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YnJjZ2F0ZXdheUBnbWFpbC5jb20&amp;src=Y19xbG9ncGFwYnViZmh1M2c3cmgzZWsyODlhY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=YnZicmMxQGdtYWlsLmNvbQ&amp;color=%23039BE5&amp;color=%23F09300&amp;color=%23E4C441&amp;showTz=1&amp;showCalendars=0&amp;showTabs=1&amp;showPrint=0&amp;showDate=1&amp;showNav=1&amp;showTitle=0" style={{ borderWidth: '0' }} width="800" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
-  </Layout>
+  </LayoutFullwidth>
 )
 
 export default CalendarPage
