@@ -28,7 +28,7 @@ const AboutPage = () => (
           <ul style={{
             listStyle: 'disc',
           }}>
-            <li>store, update, integrate, display, and facilitate interrogation of diverse data and associated metadata, including (but not limited to) information on: genome sequence and annotation, functional genomics information (transcriptomics, proteomics, etc), population variation, genotype/phenotype association, metagenomics, epidemiology, surveillance, antimicrobial resistance, host responses &amp; host-pathogen interactions, etc</li>
+            <li>store, update, integrate, display, and facilitate interrogation of diverse data and associated metadata, including (but not limited to) information on: genome sequence and annotation, functional genomics information (transcriptomics, proteomics, etc.), population variation, genotype/phenotype association, metagenomics, epidemiology, surveillance, antimicrobial resistance, host responses &amp; host-pathogen interactions, etc.</li>
             <li>make available analytical resources, bioinformatics tools, workspaces and services for data analysis, and provide bioinformatics training to ensure effective use of these resources</li>
             <li>respond rapidly to new and emerging pandemic threats</li>
           </ul>
