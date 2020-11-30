@@ -42,7 +42,7 @@ const AboutPage = () => (
             <table className="table">
               <tbody>
                 <tr>
-                  <td><a href="https://bv-brc.org/" target="_blank">Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</a></td>
+                  <td><a href="https://bv-brc.org/" target="_blank"><strong>Bacterial and Viral Bioinformatics Resource Center (BV-BRC)</strong></a></td>
                   <td>
                     <strong>Principal Investigators</strong>
                     <ul>
@@ -53,6 +53,12 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td>
+                    <a href="https://patricbrc.og" target="_blank"><strong>PATRIC</strong></a>
+                  </td>
+                  <td>Pathogenic bacteria and related species</td>
+                </tr>
+                <tr>
+                  <td style={{paddingLeft: '40px'}}>
                     <a href="https://www.fludb.org/brc/home.spg?decorator=influenza" target="_blank">IRD</a><br></br>
                     <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a>
                   </td>
@@ -60,7 +66,7 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td>
-                    <a href="https://veupathdb.org/veupathdb/app/" target="_blank">Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB)</a>
+                    <a href="https://veupathdb.org/veupathdb/app/" target="_blank"><strong>Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB</strong>)</a>
                   </td>
                   <td>
                     <strong>Principal Investigators</strong>
@@ -72,8 +78,8 @@ const AboutPage = () => (
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <div style={{ display: 'inline-block' }}>
+                  <td style={{paddingLeft: '40px'}}>
+                    <div style={{display: 'inline-block' }}>
                       <a href="https://amoebadb.org/" target="_blank">AmoebaDB</a>
                       <br />
                       <a href="https://cryptodb.org/" target="_blank">CryptoDB</a>
@@ -103,19 +109,19 @@ const AboutPage = () => (
                   <td>Eukaryotic human pathogen species including fungi and protists</td>
                 </tr>
                 <tr>
-                  <td>
+                  <td style={{paddingLeft: '40px'}}>
                     <a href="https://vectorbase.org/" target="_blank">VectorBase</a>
                   </td>
                   <td>Invertebrate vectors of human pathogens including insects, arachnids, and gastropods</td>
                 </tr>
                 <tr>
-                  <td>
+                  <td style={{paddingLeft: '40px'}}>
                     <a href="https://hostdb.org/" target="_blank">HostDB</a>
                   </td>
                   <td>Vertebrate hosts</td>
                 </tr>
                 <tr>
-                  <td>
+                  <td style={{paddingLeft: '40px'}}>
                     <a href="https://orthomcl.org/" target="_blank">OrthoMCL</a>
                   </td>
                   <td>Ortholog groups of protein sequences</td>
