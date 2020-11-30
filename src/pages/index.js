@@ -207,7 +207,7 @@ const IndexPage = () => (
       </ul>
     </div>
 
-<div className="bg-wash tw-border-b-4 tw-border-gray-600">
+<div className="bg-wash tw-border-b-4 tw-border-gray-600 mt-4">
               <div class="row mt-1">
       <div class="col-md-12">
         <p style={{
