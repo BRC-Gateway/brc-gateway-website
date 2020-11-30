@@ -23,18 +23,14 @@ const AboutPage = () => (
         <hr />
 
         <h5>Main Areas of Focus</h5>
-        <p>The overarching goal of the BRC program is to ensure that high quality, large-scale datasets are readily Findable, Accessible, Interoperable, and Reusable (FAIR), expediting both discovery and translational research.  We aim to:
-store, update, integrate, display, and facilitate interrogation of diverse data and associated metadata, including (but not limited to) information on: genome sequence and annotation, functional genomics information (transcriptomics, proteomics, etc), population variation, genotype/phenotype association, metagenomics, epidemiology, surveillance, antimicrobial resistance, host responses & host-pathogen interactions, etc
-make available analytical resources, bioinformatics tools, workspaces and services for data analysis, and provide bioinformatics training to ensure effective use of these resources
-respond rapidly to new and emerging pandemic threats</p>
+        <p>The overarching goal of the BRC program is to ensure that high quality, large-scale datasets are readily Findable, Accessible, Interoperable, and Reusable (FAIR), expediting both discovery and translational research.  We aim to:</p>
 <div className="col-12">
           <ul style={{
             listStyle: 'disc',
           }}>
-            <li>To make available analytical resources, bioinformatics tools, workspaces and services for data analysis</li>
-            <li>To store, update, integrate, and display the following types of data and associated metadata: genome sequence and annotation, functional genomics, proteomics, metagenomics, epidemiology, surveillance, population genetics, genotype/phenotype association, antimicrobial resistance, antigenic expression, host-pathogen interactions, host response, basic and clinical</li>
-            <li>To offers bioinformatics training at the BRC sites, scientific conferences, or at the requesting institution or laboratory</li>
-            <li>To respond rapidly to new and emerging pandemic threats</li>
+            <li>store, update, integrate, display, and facilitate interrogation of diverse data and associated metadata, including (but not limited to) information on: genome sequence and annotation, functional genomics information (transcriptomics, proteomics, etc), population variation, genotype/phenotype association, metagenomics, epidemiology, surveillance, antimicrobial resistance, host responses &amp; host-pathogen interactions, etc</li>
+            <li>make available analytical resources, bioinformatics tools, workspaces and services for data analysis, and provide bioinformatics training to ensure effective use of these resources</li>
+            <li>respond rapidly to new and emerging pandemic threats</li>
           </ul>
 </div>
 
