@@ -52,8 +52,8 @@ const AboutPage = () => (
                   </td>
                 </tr>
                 <tr>
-                  <td>
-                    <a href="https://patricbrc.og" target="_blank"><strong>PATRIC</strong></a>
+                  <td stlye={{ paddingLeft: '40px '}}>
+                    <a href="https://patricbrc.og" target="_blank">PATRIC</a>
                   </td>
                   <td>Pathogenic bacteria and related species</td>
                 </tr>
