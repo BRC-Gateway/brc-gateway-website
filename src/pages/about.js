@@ -52,17 +52,17 @@ const AboutPage = () => (
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingLeft: '40px'}}>
-                    <a href="https://patricbrc.og" target="_blank">PATRIC</a>
-                  </td>
-                  <td>Pathogenic bacteria and related species</td>
-                </tr>
-                <tr>
                   <td style={{paddingLeft: '40px'}}>
                     <a href="https://www.fludb.org/brc/home.spg?decorator=influenza" target="_blank">IRD</a><br></br>
                     <a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a>
                   </td>
                   <td>Human viral families including influenza virus</td>
+                </tr>
+                <tr>
+                  <td style={{ paddingLeft: '40px'}}>
+                    <a href="https://patricbrc.og" target="_blank">PATRIC</a>
+                  </td>
+                  <td>Pathogenic bacteria and related species</td>
                 </tr>
                 <tr>
                   <td>
