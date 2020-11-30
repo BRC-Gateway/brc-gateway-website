@@ -21,14 +21,14 @@ const ToolsPage = () => (
           <div className="col-md-4">
             <h6><a href="#patric">PATRIC</a></h6>
           </div>
-          <div className="col-md-4">
+          <div id="ird-vipr" className="col-md-4">
             <h6><a href="#veupathdb">VEuPathDB</a></h6>
           </div>
         </div>
         <hr />
         <div className="row">
           <div className="col-md-12">
-            <h5 id="ird-vipr">Tools for Viruses at <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></h5>
+            <h5>Tools for Viruses at <a href="https://www.fludb.org/brc/analysis_landing.spg?decorator=influenza" target="_blank">IRD</a>/<a href="https://www.viprbrc.org/brc/home.spg?decorator=vipr" target="_blank">ViPR</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
@@ -107,7 +107,7 @@ const ToolsPage = () => (
                   <td>Identify Sequence Features in Segments</td>
                   <td>Identifies experimentally characterized sequence features or phenotypic variant types.</td>
                 </tr>
-                <tr>
+                <tr id="patric">
                   <td>SARS-Cov-2 Genome Assembly and Annotation (via <a href="https://www.bv-brc.org/" target="_blank">BV-BRC</a>)</td>
                   <td>Provides meta-service that performs tailored genome assembly, annotation, and variation analysis of
                   SARS-CoV-2 genome reads.</td>
@@ -116,7 +116,7 @@ const ToolsPage = () => (
             </table>
 
             <hr />
-            <h5 id="patric">Tools for Bacteria at <a href="https://patricbrc.org" target="_blank">PATRIC</a></h5>
+            <h5>Tools for Bacteria at <a href="https://patricbrc.org" target="_blank">PATRIC</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
@@ -195,7 +195,7 @@ const ToolsPage = () => (
                   <td>TnSeq Analysis</td>
                   <td>Facilitates determination of essential regions in bacterial genomes from transposon insertion sequencing (Tn-Seq) data</td>
                 </tr>
-                <tr>
+                <tr id="veupathdb">
                   <td>Variation Analysis</td>
                   <td>Identifies and annotates sequence variations in short read samples and compares them to a closely related reference genome.</td>
                 </tr>
@@ -203,7 +203,7 @@ const ToolsPage = () => (
             </table>
 
             <hr />
-            <h5 id="veupathdb">Tools for Eukaryotes/Vectors at <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></h5>
+            <h5>Tools for Eukaryotes/Vectors at <a href="https://veupathdb.org" target="_blank">VEuPathDB</a></h5>
             <table className="table" style={{ fontSize: '0.9rem' }}>
               <tbody>
                 <tr>
