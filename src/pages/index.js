@@ -208,17 +208,18 @@ const IndexPage = () => (
     </div>
 
 <div className="bg-wash tw-border-b-4 tw-border-gray-600">
-              <div class="row mt-5">
+              <div class="row mt-1">
       <div class="col-md-12">
         <p style={{
           position: 'relative',
           zIndex: '100',
           padding: '20px',
+          paddingBottom: '0px',
         }}>These projects have been funded in whole or in part with Federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services:</p>
       </div>
     </div>
 
-    <div class="row mb-5">
+    <div class="row mb-3">
 
       <div class="col-md-6 mb-4 mb-md-0">
         <div class="bg-wash p-3 pb-0 h-100">
