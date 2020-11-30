@@ -6,14 +6,16 @@ import SEO from "../components/seo"
 
 const PublicationsPage = () => (
   <LayoutFullwidth>
-    <SEO title="Publications" />
+    <SEO title="Citations and Publications" />
     <div class="row mb-4 px-3 pt-4 pb-2 tw-border-b-4 tw-border-gray-600">
       <div class="col-12">
-        <h4>Publications</h4>
-        <p>The link below provides a summary listing of citations from Google Scholar to key manuscripts about the BRC resources. For overall reporting, the BRCs augment this set of citations with Google Scholar searches using predetermined sets of keywords based on name and/or acronym of each of the BRC resources, and additional keywords to filter out any false positive or negative results to the extent possible. This is complementary to the citations to the BRC publications in the link below and necessary because, often, users cite BRC resources by mentioning the resource name or URL in the manuscript text, instead of citing relevant publications.</p>
+        <h4>Citations and Publications</h4>
+        <h5>Citations</h5>
+        <p>The link below provides a summary listing of citations from Google Scholar to key manuscripts about the BRC resources.</p>
         <h6><a href="https://scholar.google.com/citations?user=kXLGwkYAAAAJ&hl=en&authuser=2" target="blank">Citations to BRC Publications at Google Scholar</a></h6>
-        <hr />
-
+        
+        <h5>Publications</h5>
+        <p>The following are publications about BRC resources.</p>
         <h6>2020</h6>
         <p><a href="https://pubmed.ncbi.nlm.nih.gov/31452162/" target="_blank">Accessing Cryptosporidium Omic and Isolate Data via CryptoDB.org</a><br /> Warrenfeltz S, Kissinger JC; EuPathDB Team. Methods Mol Biol. 2020;2052:139-192. doi: 10.1007/978-1-4939-9748-0_10. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/31452162/" target="_blank">31452162</a></p>
 
