@@ -16,8 +16,9 @@ const AboutPage = () => (
         <hr />
 
         <h5>Contact</h5>
-        <p>Contact VEuPathDB at <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
-        <p>Contact PATRIC at <a href="mailto:help@patricbrc.org">help@patricbrc.org</a></p>
+        <p>For information on flu and other viral taxa, contact <a href="https://www.fludb.org/brc/problemReport.spg?decorator=influenza&category=science" target="_blank">IRD</a>, <a href="https://www.viprbrc.org/brc/problemReport.spg?decorator=vipr&category=science" target="_blank">ViPR</a> (respectively)</p>
+        <p>For information on bacterial taxa, contact <a href="mailto:help@patricbrc.org">help@patricbrc.org</a></p>
+        <p>For information on protozoan &amp; fungal taxa, or arthropod &amp; mammalian hosts, contact <a href="mailto:help@veupathdb.org">help@veupathdb.org</a></p>
 
         <hr />
 
