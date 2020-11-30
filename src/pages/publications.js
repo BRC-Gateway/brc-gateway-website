@@ -14,6 +14,8 @@ const PublicationsPage = () => (
         <p>The link below provides a summary listing of citations from Google Scholar to key manuscripts about the BRC resources.</p>
         <h6><a href="https://scholar.google.com/citations?user=kXLGwkYAAAAJ&hl=en&authuser=2" target="blank">Citations to BRC Publications at Google Scholar</a></h6>
         
+        <hr/>
+
         <h5>Publications</h5>
         <p>The following are publications about BRC resources.</p>
         <h6>2020</h6>
