@@ -1,32 +1,55 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import BRCLogoWhite from "../images/brc-logo-white.png"
-import BRCLogoMin from "../images/brc-logo-min.png"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import BRCLogoWhite from "../images/brc-logo-white.png";
+import BRCLogoMin from "../images/brc-logo-min.png";
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav id="navbar" className="navbar navbar-expand-md navbar-dark bg-dark bg-brc align-items-end">
-      <Link className="navbar-brand" to="/"><img id="logo" src={BRCLogoWhite} /></Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav
+      id="navbar"
+      className="navbar navbar-expand-md navbar-dark bg-dark bg-brc align-items-end"
+    >
+      <Link className="navbar-brand" to="/">
+        <img id="logo" src={BRCLogoWhite} />
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/taxa">Taxa</Link>
+            <Link className="nav-link" to="/taxa">
+              Taxa
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/tools">Tools</Link>
+            <Link className="nav-link" to="/tools">
+              Tools
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/outreach">Outreach</Link>
+            <Link className="nav-link" to="/outreach">
+              Outreach
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/publications">Publications</Link>
+            <Link className="nav-link" to="/publications">
+              Publications
+            </Link>
           </li>
         </ul>
         {/* <ul className="navbar-nav">
@@ -45,27 +68,50 @@ const Header = ({ siteTitle }) => (
       </div>
     </nav>
 
-    <nav id="navbar-small" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top bg-brc">
-      <Link className="navbar-brand" to="/"><img id="logo" src={BRCLogoMin} /></Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <nav
+      id="navbar-small"
+      class="navbar navbar-expand-md navbar-dark bg-dark fixed-top bg-brc"
+    >
+      <Link className="navbar-brand" to="/">
+        <img id="logo" src={BRCLogoMin} />
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link>
+            <Link className="nav-link" to="/about">
+              About
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/taxa">Taxa</Link>
+            <Link className="nav-link" to="/taxa">
+              Taxa
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/tools">Tools</Link>
+            <Link className="nav-link" to="/tools">
+              Tools
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/outreach">Outreach</Link>
+            <Link className="nav-link" to="/outreach">
+              Outreach
+            </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/publications">Publications</Link>
+            <Link className="nav-link" to="/publications">
+              Publications
+            </Link>
           </li>
         </ul>
         {/* <ul className="navbar-nav">
@@ -84,14 +130,14 @@ const Header = ({ siteTitle }) => (
       </div>
     </nav>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;

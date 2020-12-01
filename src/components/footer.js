@@ -1,15 +1,15 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
 
-import BRCLogoBlack from "../images/brc-logo-black.png"
-import UCLogo from "../images/uc-logo.gif"
-import JCVILogo from "../images/jcvi-logo.png"
-import UPennLogo from "../images/upenn-logo.png"
-import UGALogo from "../images/uga-logo.png"
-import NDLogo from "../images/nd-logo.png"
-import FIGLogo from "../images/fig-logo.png"
-import UVALogo from "../images/uva-logo.png"
+import BRCLogoBlack from "../images/brc-logo-black.png";
+import UCLogo from "../images/uc-logo.gif";
+import JCVILogo from "../images/jcvi-logo.png";
+import UPennLogo from "../images/upenn-logo.png";
+import UGALogo from "../images/uga-logo.png";
+import NDLogo from "../images/nd-logo.png";
+import FIGLogo from "../images/fig-logo.png";
+import UVALogo from "../images/uva-logo.png";
 
 const Footer = ({ siteTitle }) => (
   <footer class="footer mt-auto py-4">
@@ -35,7 +35,6 @@ const Footer = ({ siteTitle }) => (
       </div>
     </div>
   </footer>
-)
+);
 
-
-export default Footer
+export default Footer;
