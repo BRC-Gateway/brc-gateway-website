@@ -94,7 +94,10 @@ const Calendar = () => {
                 <h6 className="mb-1">
                   <a href={htmlLink} target="_blank">
                     {summary}
-                    <i class="fas fa-external-link-alt"></i>
+                    <i
+                      class="fas fa-external-link-alt"
+                      style={{ position: "absolute", marginLeft: "5px" }}
+                    ></i>
                   </a>
                 </h6>
 
