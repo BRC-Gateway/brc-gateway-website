@@ -133,7 +133,7 @@ const AboutPage = () => (
                 </tr>
                 <tr>
                   <td style={{ paddingLeft: "40px" }}>
-                    <a href="https://patricbrc.og" target="_blank">
+                    <a href="https://patricbrc.org" target="_blank">
                       PATRIC
                     </a>
                   </td>
