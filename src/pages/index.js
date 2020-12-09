@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import Image from "../components/Image";
-import SEO from "../components/Seo";
+import SEO from "../components/seo";
 
 import BRCLogoBlack from "../images/brc-logo-black.png";
 import IconHosts from "../images/icon-hosts.png";
