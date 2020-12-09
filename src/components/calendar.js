@@ -13,6 +13,7 @@ const maxDescriptLength = 100;
 
 const dateConfig = {
   month: "short",
+  weekday: "long",
   year: "numeric",
   day: "numeric",
   hour: "2-digit",
