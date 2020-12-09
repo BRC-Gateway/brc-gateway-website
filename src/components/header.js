@@ -27,27 +27,31 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link" activeClassName="active" to="/about">
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/taxa">
+            <Link className="nav-link" activeClassName="active" to="/taxa">
               Taxa
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/tools">
+            <Link className="nav-link" activeClassName="active" to="/tools">
               Tools
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/outreach">
+            <Link className="nav-link" activeClassName="active" to="/outreach">
               Outreach
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/publications">
+            <Link
+              className="nav-link"
+              activeClassName="active"
+              to="/publications"
+            >
               Publications
             </Link>
           </li>
@@ -89,27 +93,31 @@ const Header = ({ siteTitle }) => (
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link" activeClassName="active" to="/about">
               About
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/taxa">
+            <Link className="nav-link" activeClassName="active" to="/taxa">
               Taxa
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/tools">
+            <Link className="nav-link" activeClassName="active" to="/tools">
               Tools
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/outreach">
+            <Link className="nav-link" activeClassName="active" to="/outreach">
               Outreach
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/publications">
+            <Link
+              className="nav-link"
+              activeClassName="active"
+              to="/publications"
+            >
               Publications
             </Link>
           </li>

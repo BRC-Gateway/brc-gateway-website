@@ -2,10 +2,10 @@
    Bootstrap style overrides for EukOmicsDB site
 -------------------------------------------------- */
 
-
 body {
   padding-top: 0px;
-  font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+    sans-serif;
   background: #e6eaed;
 }
 
@@ -15,7 +15,8 @@ main > .container-fluid.max-1600 {
   background: #fff;
 }
 
-p, ul {
+p,
+ul {
   font-size: 0.9rem;
   line-height: 1.3;
   margin-bottom: 0.8rem;
@@ -24,18 +25,18 @@ p, ul {
 p.emphasis {
   font-size: 1.05rem;
   line-height: 1.4;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
 }
-
 
 /* Navbar */
 
 .navbar-dark .navbar-nav .nav-link {
-  font-size: 1.0rem;
-  color:rgba(255,255,255,.75);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
 }
-.navbar-dark .navbar-nav .nav-link:hover {
-  color:rgba(255,255,255,1);
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: rgba(255, 255, 255, 1);
 }
 .navbar-nav .nav-link.dropdown-toggle {
   font-size: 1.4em;
@@ -53,7 +54,7 @@ p.emphasis {
   height: 90px;
 }
 #navbar .navbar-collapse {
-  padding-bottom: .9rem;
+  padding-bottom: 0.9rem;
 }
 
 /* Small, fixed navbar appears when scroll */
@@ -65,15 +66,19 @@ p.emphasis {
   height: 34px;
 }
 
-
 /* Change default dark bkgrnd color */
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #234d69;
 }
 
 .bg-dark {
-  background-color: #234d69!important;
+  background-color: #234d69 !important;
 }
 
 .btn-outline-dark {
@@ -86,14 +91,13 @@ h1,h2,h3,h4,h5,h6 {
   border-color: #234d69;
 }
 
-
 /* Change default links and underlines */
 
 h1 {
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
 }
 h1.border-bottom {
-  border-bottom: 1px solid rgba(213,94,0,0.25)!important;
+  border-bottom: 1px solid rgba(213, 94, 0, 0.25) !important;
 }
 
 a {
@@ -103,7 +107,6 @@ a {
 .bg-wash {
   background: #eef0f2;
 }
-
 
 /*
  * Home
@@ -127,136 +130,136 @@ a {
   max-height: 30vh;
 }
 
-
 /* Organism grid */
 
 #grid {
-    position: relative;
-    width: 50%;
-    margin: 0 auto;
-    padding: 0; /* Clears unordered list default of 40px */
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0; /* Clears unordered list default of 40px */
 }
 
 .clear:after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 #grid li {
-    list-style-type: none;
-    position: relative;
-    float: left;
-    width: 27.85714285714286%;
-    padding: 0 0 27.85714285714286% 0;
+  list-style-type: none;
+  position: relative;
+  float: left;
+  width: 27.85714285714286%;
+  padding: 0 0 27.85714285714286% 0;
 }
 #grid li .org-circle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: #f15a29;
-    opacity: .9;
-    border: 2px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #f15a29;
+  opacity: 0.9;
+  border: 2px solid transparent;
 }
 #grid li .org-circle:hover {
-    opacity: 1;
-    border: 2px solid #234d69;
+  opacity: 1;
+  border: 2px solid #234d69;
 }
 #grid li .org-circle:hover > .info > span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-#grid li:nth-child(3n+2) {
+#grid li:nth-child(3n + 2) {
   margin: 0 4%;
 }
 #grid li {
-    -o-transform: translateX(-35%);
-    -moz-transform: translateX(-35%);
-    -webkit-transform: translateX(-35%);
-    -ms-transform: translateX(-35%);
-    transform: translateX(-35%);
+  -o-transform: translateX(-35%);
+  -moz-transform: translateX(-35%);
+  -webkit-transform: translateX(-35%);
+  -ms-transform: translateX(-35%);
+  transform: translateX(-35%);
 }
-#grid li:nth-child(6n+4), #grid li:nth-child(6n+5), #grid li:nth-child(6n+6) {
-    -o-transform: translateX(15%);
-    -moz-transform: translateX(15%);
-    -webkit-transform: translateX(15%);
-    -ms-transform: translateX(15%);
-    transform: translateX(15%);
+#grid li:nth-child(6n + 4),
+#grid li:nth-child(6n + 5),
+#grid li:nth-child(6n + 6) {
+  -o-transform: translateX(15%);
+  -moz-transform: translateX(15%);
+  -webkit-transform: translateX(15%);
+  -ms-transform: translateX(15%);
+  transform: translateX(15%);
 }
-#grid li:nth-child(6n+4) {
-    margin-left: 0.5%;
+#grid li:nth-child(6n + 4) {
+  margin-left: 0.5%;
 }
 #grid li .org-circle.dummy {
-    visibility: hidden;
-    background: transparent;
+  visibility: hidden;
+  background: transparent;
 }
 
 #grid li .org-circle img {
-    padding: 10%;
+  padding: 10%;
 }
 
 #grid li .org-circle .info {
-    position: absolute;
-    top: 50%;
+  position: absolute;
+  top: 50%;
 }
 #grid li .org-circle .info.bkgrnd {
-    background: #fff;
-    padding: 5px;
+  background: #fff;
+  padding: 5px;
 }
 #grid li .org-circle .info.info-right {
-    right: 0;
-    text-align: left;
-    -o-transform: translate(115%, -50%);
-    -moz-transform: translate(115%, -50%);
-    -webkit-transform: translate(115%, -50%);
-    -ms-transform: translate(115%, -50%);
-    transform: translate(115%, -50%);
+  right: 0;
+  text-align: left;
+  -o-transform: translate(115%, -50%);
+  -moz-transform: translate(115%, -50%);
+  -webkit-transform: translate(115%, -50%);
+  -ms-transform: translate(115%, -50%);
+  transform: translate(115%, -50%);
 }
 #grid li .org-circle .info.info-left {
-    left: 0;
-    text-align: right;
-    -o-transform: translate(-115%, -50%);
-    -moz-transform: translate(-115%, -50%);
-    -webkit-transform: translate(-115%, -50%);
-    -ms-transform: translate(-115%, -50%);
-    transform: translate(-115%, -50%);
+  left: 0;
+  text-align: right;
+  -o-transform: translate(-115%, -50%);
+  -moz-transform: translate(-115%, -50%);
+  -webkit-transform: translate(-115%, -50%);
+  -ms-transform: translate(-115%, -50%);
+  transform: translate(-115%, -50%);
 }
 #grid li .org-circle .info span {
-    font-size: 0.9rem;
-    line-height: 1.0rem;
-    font-weight: 500;
-    color: #00304c;
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #00304c;
 }
 #grid li .org-circle .info span:hover {
-    cursor: pointer;
-    text-decoration: underline;
+  cursor: pointer;
+  text-decoration: underline;
 }
 #grid li .org-circle .info li {
-    font-size: .9rem;
-    line-height: ;
-    transform: none;
-    float: none;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-    overflow: visible;
+  font-size: 0.9rem;
+  line-height: ;
+  transform: none;
+  float: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: visible;
 }
 #grid li .org-circle .info #do_protozoa {
-    column-count: 1;
+  column-count: 1;
 }
 
-
-@media screen and (min-width: 992px ) {
+@media screen and (min-width: 992px) {
   #grid li .org-circle .info span {
     font-size: 1.4rem;
     line-height: 1.4rem;
   }
   #grid li .org-circle span {
-    font-size: 1.0rem;
+    font-size: 1rem;
   }
   #grid li .org-circle .info #do_protozoa {
     column-count: 2;
@@ -282,10 +285,11 @@ a {
 
 /* Twitter */
 h1.timeline-Header-title {
-  color: #234d69!important;
+  color: #234d69 !important;
   font-size: 1.25rem;
   font-weight: 500;
-  font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans,
+    sans-serif;
 }
 
 /* Footer */
@@ -294,7 +298,7 @@ h1.timeline-Header-title {
   background-color: #f5f5f5;
   position: relative;
   z-index: 100;
-  font-size: .9em;
+  font-size: 0.9em;
   color: #6c757d;
   font-size: 0.75em;
 }
@@ -312,17 +316,15 @@ h1.timeline-Header-title {
   padding-left: 15px;
 }
 
-
 .partner-line {
   margin: 0 auto;
-  text-align:center;
+  text-align: center;
 }
 .partner-line img {
   display: inline-block;
   height: 1.75rem;
-  padding: 0 .75rem;
+  padding: 0 0.75rem;
 }
-
 
 @media screen and (max-width: 991px) {
   .social-buttons {
@@ -330,24 +332,15 @@ h1.timeline-Header-title {
   }
 }
 
-
-
 /* Utility classes */
 
-[target=_blank] .fa-external-link-alt {
+[target="_blank"] .fa-external-link-alt {
   visibility: hidden;
 }
 
-[target=_blank]:hover .fa-external-link-alt {
+[target="_blank"]:hover .fa-external-link-alt {
   visibility: visible;
   color: #666;
   margin-left: 5px;
-  font-size: .9em;
+  font-size: 0.9em;
 }
-
-
-
-
-
-
-
