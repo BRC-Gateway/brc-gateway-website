@@ -5,7 +5,7 @@ const calID1 = "bvbrc1@gmail.com";
 const calID2 = "c_qlogpapbubfhu3g7rh3ek289ac@group.calendar.google.com";
 
 const getURL = id =>
-  `https://www.googleapis.com/calendar/v3/calendars/${id}/events?key=AIzaSyCiCvVI748zL5OQANeAO-iGpAQemdXfhug&singleEvents=true&calendarID=primary`;
+  `https://www.googleapis.com/calendar/v3/calendars/${id}/events?key=AIzaSyCvPW9DRGrjaYPOxYkkd2Kw6lvK0dceSLg&singleEvents=true&calendarID=primary`;
 const maxResults = 3;
 const orderBy = "startTime";
 
